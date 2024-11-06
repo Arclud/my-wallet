@@ -1,4 +1,4 @@
-My Wallet is a free and open source **money management android app**. It's written using **100% Kotlin and Jetpack Compose**. It's designed to help you keep track of your personal finances with ease.
+My Wallet is a free and open source **money management android app**.(forked from [ivy-Wallet](https://github.com/Ivy-Apps/ivy-wallet) since it's no longer supported) It's written using **100% Kotlin and Jetpack Compose**. It's designed to help you keep track of your personal finances with ease.
 
 Think of Ivy Wallet as a manual expense tracker that tries to replace the good old spreadsheet for managing your finances.
 
