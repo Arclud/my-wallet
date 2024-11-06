@@ -25,15 +25,9 @@ A money management app can help you answer these questions.
 
 Instructions in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-### Need help?
-
-Join our Telegram community and drop a message in the "Development" topic.
-
-[![Telegram Group](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+ETavgioAvWg4NThk)
-
 ## Learning Materials
 
-Ivy Wallet is a great place to code and learn. That's why we also link to great learning materials (books, articles, videos), check them out in **[docs/resources 📚](docs/resources/)**.
+My Wallet is a great place to code and learn. That's why we also link to great learning materials (books, articles, videos), check them out in **[docs/resources 📚](docs/resources/)**.
 
 Make sure to check out our short **[Developer Guidelines 🏗️](docs/Guidelines.md)** to learn more about the technical side of the Ivy Wallet.
 
