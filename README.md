@@ -12,12 +12,6 @@ Think of Ivy Wallet as a manual expense tracker that tries to replace the good o
 
 A money management app can help you answer these questions.
 
-Ivy Wallet may lack some of the features you're looking for, but it truly shines in its user interface and experience, as well as its simplicity and customization options. This was recognized in the ["Top/Best Android App in 2021/2022 charts"](https://youtube.com/playlist?list=PLguJN0waG1-eSzKMuFMIULrR3MlqJ3cAE) by the YouTube tech community.
-
-<a href='https://play.google.com/store/apps/details?id=com.ivy.wallet&utm_source=github&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="323" height="125"/></a>
-
-> Join our **[private Telegram Community](https://t.me/+ETavgioAvWg4NThk)**.
-
 > To support our free open source project, please give it a star. ⭐
 > This means a lot to us. Thank you so much! [![GitHub Repo stars](https://img.shields.io/github/stars/Ivy-Apps/ivy-wallet?style=social)](https://github.com/Ivy-Apps/ivy-wallet/stargazers)
 
@@ -84,25 +78,6 @@ Make sure to check out our short **[Developer Guidelines 🏗️](docs/Guideline
 - [Ktlint](https://github.com/pinterest/ktlint) (linter)
 - [Slack's compose-lints](https://slackhq.github.io/compose-lints/) (linter)
 
-## Contribute
-
-**Want to contribute?** See **[CONTRIBUTING.md](/CONTRIBUTING.md)** [![Fork Ivy Wallet](https://img.shields.io/github/forks/Ivy-Apps/ivy-wallet?logo=github&style=social)](https://github.com/Ivy-Apps/ivy-wallet/fork)
-
-### Contributors Wall:
-
-<a href="https://github.com/ILIYANGERMANOV/ivy-wallet/graphs/contributors">
-  <img alt="contributors graph" src="https://contrib.rocks/image?repo=Ivy-Apps/ivy-wallet" />
-</a>
-<br>
-<br>
-
-_Note: It may take up to 24 hours for the [contrib.rocks](https://contrib.rocks/preview?repo=Ivy-Apps%2Fivy-wallet) plugin to update._ 
-
-**P.S.** You'll also be recognized in a special "Contributors" section. We salute you! 👏
-
-## Creative Contributors
-
-Folks that helped Ivy Wallet in a non-dev creative ways that can't be captured on GitHub.
 
 ### Creative Contributors Wall:
 
@@ -135,12 +110,3 @@ Folks that helped Ivy Wallet in a non-dev creative ways that can't be captured o
 </div>
 
 
-## Community Projects
-
-> ⚠️ Disclaimer: The community projects listed are independently developed and not affiliated with Ivy Apps Ltd. Consequently, we cannot vouch for their functionality, security or intentions. Your engagement with these projects is solely at your own discretion and risk. Ivy Apps Ltd explicitly disclaims any warranties, express or implied, and shall not be held liable for any damages or losses resulting from the use of these community-developed projects.
-> 
-### [ivy-wallet-web](https://github.com/pratikkabade/ivy-wallet-web) by [Pratik Kabade](https://github.com/pratikkabade)
-
-This community-developed project allows users to conveniently access Ivy Wallet through their **web browsers**, ensuring a smooth experience across multiple platforms.
-- [GitHub URL](https://github.com/pratikkabade/ivy-wallet-web)
-- [Web app URL](https://ivy-wallet-web.vercel.app/)
