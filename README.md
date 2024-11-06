@@ -13,7 +13,6 @@ Think of Ivy Wallet as a manual expense tracker that tries to replace the good o
 A money management app can help you answer these questions.
 
 > To support our free open source project, please give it a star. ⭐
-> This means a lot to us. Thank you so much! [![GitHub Repo stars](https://img.shields.io/github/stars/Ivy-Apps/ivy-wallet?style=social)](https://github.com/Ivy-Apps/ivy-wallet/stargazers)
 
 ## Project Requirements
 
