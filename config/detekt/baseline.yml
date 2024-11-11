@@ -609,7 +609,7 @@
     <ID>DataClassFunctions:Budget.kt$Budget$private fun parseIdsString(idsString: String?): List&lt;UUID&gt;</ID>
     <ID>DataClassFunctions:Category.kt$Category$fun toEntity(): CategoryEntity</ID>
     <ID>DataClassFunctions:ChoosePeriodModal.kt$MonthYear$fun forDisplay( currentYear: Int ): String</ID>
-    <ID>DataClassFunctions:ClosedTimeRange.kt$ClosedTimeRange$fun toFromToRange(): com.ivy.legacy.data.model.FromToTimeRange</ID>
+    <ID>DataClassFunctions:ClosedTimeRange.kt$ClosedTimeRange$fun toFromToRange(): kg.ivy.legacy.data.model.FromToTimeRange</ID>
     <ID>DataClassFunctions:Colors.kt$Gradient$@Deprecated("Old design system. Use `:ivy-design` and Material3") fun asHorizontalBrush()</ID>
     <ID>DataClassFunctions:ExchangeRate.kt$ExchangeRate$fun toEntity(): ExchangeRateEntity</ID>
     <ID>DataClassFunctions:FromToTimeRange.kt$FromToTimeRange$fun from(): LocalDateTime</ID>
@@ -2382,198 +2382,198 @@
     <ID>FunctionParameterNaming:ReorderModal.kt$ItemContent: @Composable RowScope.(Int, Any) -&gt; Unit</ID>
     <ID>FunctionParameterNaming:ReorderModal.kt$TitleContent: @Composable ColumnScope.() -&gt; Unit = { Text( modifier = Modifier.padding(start = 32.dp), text = stringResource(R.string.reorder), style = UI.typo.b1.style( UI.colors.pureInverse, FontWeight.ExtraBold ) ) }</ID>
     <ID>FunctionParameterNaming:WrapContentRow.kt$ItemContent: @Composable (item: T) -&gt; Unit</ID>
-    <ID>InvalidPackageDeclaration:AccTrnsAct.kt$package com.ivy.wallet.domain.action.account</ID>
-    <ID>InvalidPackageDeclaration:AccValueFunctions.kt$package com.ivy.wallet.domain.pure.transaction</ID>
-    <ID>InvalidPackageDeclaration:AccountByIdAct.kt$package com.ivy.wallet.domain.action.account</ID>
-    <ID>InvalidPackageDeclaration:AccountDataAct.kt$package com.ivy.wallet.domain.action.viewmodel.account</ID>
-    <ID>InvalidPackageDeclaration:AccountFunctions.kt$package com.ivy.wallet.domain.pure.account</ID>
-    <ID>InvalidPackageDeclaration:AccountModal.kt$package com.ivy.wallet.ui.theme.modal.edit</ID>
-    <ID>InvalidPackageDeclaration:AccountsAct.kt$package com.ivy.wallet.domain.action.account</ID>
-    <ID>InvalidPackageDeclaration:Action.kt$package com.ivy.frp.action</ID>
-    <ID>InvalidPackageDeclaration:AddKeywordModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:AddPrimaryAttributeButton.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:AllTrnsAct.kt$package com.ivy.wallet.domain.action.transaction</ID>
-    <ID>InvalidPackageDeclaration:AmountCurrency.kt$package com.ivy.wallet.ui.theme.wallet</ID>
-    <ID>InvalidPackageDeclaration:AmountModal.kt$package com.ivy.wallet.ui.theme.modal.edit</ID>
-    <ID>InvalidPackageDeclaration:Annotations.kt$package com.ivy.frp</ID>
-    <ID>InvalidPackageDeclaration:BackBottomBar.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:BalanceRow.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:BaseCurrencyAct.kt$package com.ivy.wallet.domain.action.settings</ID>
-    <ID>InvalidPackageDeclaration:BudgetsAct.kt$package com.ivy.wallet.domain.action.budget</ID>
-    <ID>InvalidPackageDeclaration:BufferBattery.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:BufferModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:CSVMapper.kt$package com.ivy.wallet.domain.deprecated.logic.csv</ID>
-    <ID>InvalidPackageDeclaration:CSVNormalizer.kt$package com.ivy.wallet.domain.deprecated.logic.csv</ID>
-    <ID>InvalidPackageDeclaration:CalcAccBalanceAct.kt$package com.ivy.wallet.domain.action.account</ID>
-    <ID>InvalidPackageDeclaration:CalcAccIncomeExpenseAct.kt$package com.ivy.wallet.domain.action.account</ID>
-    <ID>InvalidPackageDeclaration:CalcBufferDiffAct.kt$package com.ivy.wallet.domain.action.settings</ID>
-    <ID>InvalidPackageDeclaration:CalcIncomeExpenseAct.kt$package com.ivy.wallet.domain.action.wallet</ID>
-    <ID>InvalidPackageDeclaration:CalcTrnsIncomeExpenseAct.kt$package com.ivy.wallet.domain.action.transaction</ID>
-    <ID>InvalidPackageDeclaration:CalcWalletBalanceAct.kt$package com.ivy.wallet.domain.action.wallet</ID>
-    <ID>InvalidPackageDeclaration:CalculatorModal.kt$package com.ivy.wallet.ui.theme.modal.edit</ID>
-    <ID>InvalidPackageDeclaration:CatValueFunctions.kt$package com.ivy.wallet.domain.pure.transaction</ID>
-    <ID>InvalidPackageDeclaration:CategoriesAct.kt$package com.ivy.wallet.domain.action.category</ID>
-    <ID>InvalidPackageDeclaration:Category.kt$package com.ivy.wallet.ui.edit.core</ID>
-    <ID>InvalidPackageDeclaration:CategoryByIdAct.kt$package com.ivy.wallet.domain.action.category</ID>
-    <ID>InvalidPackageDeclaration:CategoryCreator.kt$package com.ivy.wallet.domain.deprecated.logic</ID>
-    <ID>InvalidPackageDeclaration:CategoryIncomeWithAccountFiltersAct.kt$package com.ivy.wallet.domain.action.category</ID>
-    <ID>InvalidPackageDeclaration:CategoryModal.kt$package com.ivy.wallet.ui.theme.modal.edit</ID>
-    <ID>InvalidPackageDeclaration:CategoryTrnsBetweenAct.kt$package com.ivy.wallet.domain.action.category</ID>
-    <ID>InvalidPackageDeclaration:ChangeTransactionTypeModal.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:ChooseCategoryModal.kt$package com.ivy.wallet.ui.theme.modal.edit</ID>
-    <ID>InvalidPackageDeclaration:ChooseIconModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:ChoosePeriodModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:ChooseStartDateOfMonthModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:CircleButtons.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:ClosedTimeRange.kt$package com.ivy.wallet.domain.pure.data</ID>
-    <ID>InvalidPackageDeclaration:Composition.kt$package com.ivy.frp</ID>
-    <ID>InvalidPackageDeclaration:Composition2.kt$package com.ivy.frp</ID>
-    <ID>InvalidPackageDeclaration:CompositionFilter.kt$package com.ivy.frp.action</ID>
-    <ID>InvalidPackageDeclaration:CompositionMap.kt$package com.ivy.frp.action</ID>
-    <ID>InvalidPackageDeclaration:CompositionN.kt$package com.ivy.frp</ID>
-    <ID>InvalidPackageDeclaration:CompositionSum.kt$package com.ivy.frp.action</ID>
-    <ID>InvalidPackageDeclaration:CreateAccountData.kt$package com.ivy.wallet.domain.deprecated.logic.model</ID>
-    <ID>InvalidPackageDeclaration:CreateBudgetData.kt$package com.ivy.wallet.domain.deprecated.logic.model</ID>
-    <ID>InvalidPackageDeclaration:CreateCategoryData.kt$package com.ivy.wallet.domain.deprecated.logic.model</ID>
-    <ID>InvalidPackageDeclaration:CreateLoanData.kt$package com.ivy.wallet.domain.deprecated.logic.model</ID>
-    <ID>InvalidPackageDeclaration:CreateLoanRecordData.kt$package com.ivy.wallet.domain.deprecated.logic.model</ID>
-    <ID>InvalidPackageDeclaration:CurrencyModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:CurrencyPicker.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:CustomExchangeRateCard.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:CustomExchangeRateState.kt$package com.ivy.wallet.domain.data</ID>
-    <ID>InvalidPackageDeclaration:DeleteButton.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:DeleteModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:Description.kt$package com.ivy.wallet.ui.edit.core</ID>
-    <ID>InvalidPackageDeclaration:DescriptionModal.kt$package com.ivy.wallet.ui.theme.modal.edit</ID>
-    <ID>InvalidPackageDeclaration:DueDate.kt$package com.ivy.wallet.ui.edit.core</ID>
-    <ID>InvalidPackageDeclaration:DueTrnsAct.kt$package com.ivy.wallet.domain.action.transaction</ID>
-    <ID>InvalidPackageDeclaration:DueTrnsInfoAct.kt$package com.ivy.wallet.domain.action.viewmodel.home</ID>
-    <ID>InvalidPackageDeclaration:EditBottomSheet.kt$package com.ivy.wallet.ui.edit.core</ID>
-    <ID>InvalidPackageDeclaration:EditLoanRecordData.kt$package com.ivy.wallet.domain.deprecated.logic.model</ID>
-    <ID>InvalidPackageDeclaration:Exchange.kt$package com.ivy.wallet.domain.pure.exchange</ID>
-    <ID>InvalidPackageDeclaration:ExchangeAct.kt$package com.ivy.wallet.domain.action.exchange</ID>
-    <ID>InvalidPackageDeclaration:ExchangeRatesLogic.kt$package com.ivy.wallet.domain.deprecated.logic.currency</ID>
-    <ID>InvalidPackageDeclaration:ExchangeTrns.kt$package com.ivy.wallet.domain.pure.exchange</ID>
-    <ID>InvalidPackageDeclaration:ExportCSVLogic.kt$package com.ivy.wallet.domain.deprecated.logic.csv</ID>
-    <ID>InvalidPackageDeclaration:FPAction.kt$package com.ivy.frp.action</ID>
-    <ID>InvalidPackageDeclaration:FRPComposable.kt$package com.ivy.frp.view</ID>
-    <ID>InvalidPackageDeclaration:FRPViewModel.kt$package com.ivy.frp.viewmodel</ID>
-    <ID>InvalidPackageDeclaration:FoldTransactions.kt$package com.ivy.wallet.domain.pure.transaction</ID>
-    <ID>InvalidPackageDeclaration:GradientCut.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:HasTrnsAct.kt$package com.ivy.wallet.domain.action.viewmodel.home</ID>
-    <ID>InvalidPackageDeclaration:HistoryTrnsAct.kt$package com.ivy.wallet.domain.action.transaction</ID>
-    <ID>InvalidPackageDeclaration:HistoryWithDateDivsAct.kt$package com.ivy.wallet.domain.action.transaction</ID>
-    <ID>InvalidPackageDeclaration:IncomeExpensePair.kt$package com.ivy.wallet.domain.pure.data</ID>
-    <ID>InvalidPackageDeclaration:IncomeExpenseTransferPair.kt$package com.ivy.wallet.domain.pure.data</ID>
-    <ID>InvalidPackageDeclaration:IntervalPickerRow.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IntervalType.kt$package com.ivy.data.model</ID>
-    <ID>InvalidPackageDeclaration:ItemIcon.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyBasicTextField.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyBorderButton.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyButton.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyCheckbox.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyChecklistTextField.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyCircleButton.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyColorPicker.kt$package com.ivy.domain.legacy.ui</ID>
-    <ID>InvalidPackageDeclaration:IvyColors.kt$package com.ivy.wallet.ui.theme</ID>
-    <ID>InvalidPackageDeclaration:IvyComponents.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyCurrency.kt$package com.ivy.wallet.domain.data</ID>
-    <ID>InvalidPackageDeclaration:IvyDataStore.kt$package com.ivy.wallet.io.persistence.datastore</ID>
-    <ID>InvalidPackageDeclaration:IvyDescriptionTextField.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyDivider.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyDividerDot.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyDomainUtils.kt$package com.ivy.wallet.domain.pure.util</ID>
-    <ID>InvalidPackageDeclaration:IvyIcon.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyLineChart.kt$package com.ivy.wallet.ui.theme.components.charts.linechart</ID>
-    <ID>InvalidPackageDeclaration:IvyModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:IvyModalComponents.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:IvyModalDomainComponents.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:IvyNameTextFieldValue.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyNotification.kt$package com.ivy.wallet.android.notification</ID>
-    <ID>InvalidPackageDeclaration:IvyNotificationChannel.kt$package com.ivy.wallet.android.notification</ID>
-    <ID>InvalidPackageDeclaration:IvyNumberTextField.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyOutlinedButton.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyOutlinedTextField.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvySwitch.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyTitleTextField.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:IvyToolbar.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:LTLoanMapper.kt$package com.ivy.wallet.domain.deprecated.logic.loantrasactions</ID>
-    <ID>InvalidPackageDeclaration:LTLoanRecordMapper.kt$package com.ivy.wallet.domain.deprecated.logic.loantrasactions</ID>
-    <ID>InvalidPackageDeclaration:ListItem.kt$package com.ivy.domain.legacy.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:LoanByIdAct.kt$package com.ivy.wallet.domain.action.loan</ID>
-    <ID>InvalidPackageDeclaration:LoanCreator.kt$package com.ivy.wallet.domain.deprecated.logic</ID>
-    <ID>InvalidPackageDeclaration:LoanModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:LoanRecordCreator.kt$package com.ivy.wallet.domain.deprecated.logic</ID>
-    <ID>InvalidPackageDeclaration:LoanRecordModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:LoanTransactionsLogic.kt$package com.ivy.wallet.domain.deprecated.logic.loantrasactions</ID>
-    <ID>InvalidPackageDeclaration:LoanType.kt$package com.ivy.data.model</ID>
-    <ID>InvalidPackageDeclaration:LoansAct.kt$package com.ivy.wallet.domain.action.loan</ID>
-    <ID>InvalidPackageDeclaration:Migration105to106_TrnRecurringRules.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration106to107_Wishlist.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration107to108_Sync.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration108to109_Users.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration109to110_PlannedPayments.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration110to111_PlannedPaymentRule.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration111to112_User_testUser.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration112to113_ExchangeRates.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration113to114_Multi_Currency.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration114to115_Category_Account_Icons.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration115to116_Account_Include_In_Balance.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration116to117_SalteEdgeIntgration.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration117to118_Budgets.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration118to119_Loans.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration119to120_LoanTransactions.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration120to121_DropWishlistItem.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:Migration122to123_ExchangeRates.kt$package com.ivy.domain.db.migration</ID>
-    <ID>InvalidPackageDeclaration:MonthPickerModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:NameModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:NotificationService.kt$package com.ivy.wallet.android.notification</ID>
-    <ID>InvalidPackageDeclaration:OnboardingComponents.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:OverdueAct.kt$package com.ivy.wallet.domain.action.viewmodel.home</ID>
-    <ID>InvalidPackageDeclaration:PeriodSelector.kt$package com.ivy.wallet.ui.theme.wallet</ID>
-    <ID>InvalidPackageDeclaration:PlannedPaymentsGenerator.kt$package com.ivy.wallet.domain.deprecated.logic</ID>
-    <ID>InvalidPackageDeclaration:PlannedPaymentsLogic.kt$package com.ivy.wallet.domain.deprecated.logic</ID>
-    <ID>InvalidPackageDeclaration:PreloadDataLogic.kt$package com.ivy.wallet.domain.deprecated.logic</ID>
-    <ID>InvalidPackageDeclaration:ProgressBar.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:ProgressModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:RecurringRuleModal.kt$package com.ivy.wallet.ui.theme.modal</ID>
-    <ID>InvalidPackageDeclaration:ReorderModal.kt$package com.ivy.wallet.ui.theme.components</ID>
-    <ID>InvalidPackageDeclaration:Reorderable.kt$package com.ivy.wallet.domain.data</ID>
-    <ID>InvalidPackageDeclaration:Res.kt$package com.ivy.frp.monad</ID>
-    <ID>InvalidPackageDeclaration:ResComposition.kt$package com.ivy.frp.monad</ID>
-    <ID>InvalidPackageDeclaration:RoomTypeConverters.kt$package com.ivy.domain.db</ID>
-    <ID>InvalidPackageDeclaration:RowMapping.kt$package com.ivy.wallet.domain.deprecated.logic.csv.model</ID>
-    <ID>InvalidPackageDeclaration:SaveTrnLocallyAct.kt$package com.ivy.wallet.domain.action.viewmodel.transaction</ID>
-    <ID>InvalidPackageDeclaration:SettingsAct.kt$package com.ivy.wallet.domain.action.settings</ID>
-    <ID>InvalidPackageDeclaration:ShouldHideBalanceAct.kt$package com.ivy.wallet.domain.action.viewmodel.home</ID>
-    <ID>InvalidPackageDeclaration:SmartTitleSuggestionsLogic.kt$package com.ivy.wallet.domain.deprecated.logic</ID>
-    <ID>InvalidPackageDeclaration:SortOrder.kt$package com.ivy.wallet.domain.data</ID>
-    <ID>InvalidPackageDeclaration:StartDayOfMonthAct.kt$package com.ivy.wallet.domain.action.global</ID>
-    <ID>InvalidPackageDeclaration:TestIdlingResource.kt$package com.ivy.frp.test</ID>
-    <ID>InvalidPackageDeclaration:TestingContext.kt$package com.ivy.frp.test</ID>
-    <ID>InvalidPackageDeclaration:Title.kt$package com.ivy.wallet.ui.edit.core</ID>
-    <ID>InvalidPackageDeclaration:Toolbar.kt$package com.ivy.wallet.ui.edit.core</ID>
-    <ID>InvalidPackageDeclaration:TransactionHistoryDateDivider.kt$package com.ivy.wallet.domain.data</ID>
-    <ID>InvalidPackageDeclaration:TransactionReminderLogic.kt$package com.ivy.wallet.domain.deprecated.logic.notification</ID>
-    <ID>InvalidPackageDeclaration:TransactionReminderWorker.kt$package com.ivy.wallet.domain.deprecated.logic.notification</ID>
-    <ID>InvalidPackageDeclaration:TrnByIdAct.kt$package com.ivy.wallet.domain.action.transaction</ID>
-    <ID>InvalidPackageDeclaration:TrnDateDividers.kt$package com.ivy.wallet.domain.pure.transaction</ID>
-    <ID>InvalidPackageDeclaration:TrnFunctions.kt$package com.ivy.wallet.domain.pure.transaction</ID>
-    <ID>InvalidPackageDeclaration:TrnsWithDateDivsAct.kt$package com.ivy.wallet.domain.action.transaction</ID>
-    <ID>InvalidPackageDeclaration:TrnsWithRangeAndAccFiltersAct.kt$package com.ivy.wallet.domain.action.transaction</ID>
-    <ID>InvalidPackageDeclaration:UpcomingAct.kt$package com.ivy.wallet.domain.action.viewmodel.home</ID>
-    <ID>InvalidPackageDeclaration:UpdateAccCacheAct.kt$package com.ivy.wallet.domain.action.viewmodel.home</ID>
-    <ID>InvalidPackageDeclaration:UpdateCategoriesCacheAct.kt$package com.ivy.wallet.domain.action.viewmodel.home</ID>
-    <ID>InvalidPackageDeclaration:UpdateStartDayOfMonthAct.kt$package com.ivy.wallet.domain.action.global</ID>
-    <ID>InvalidPackageDeclaration:Utils.kt$package com.ivy.frp</ID>
-    <ID>InvalidPackageDeclaration:Utils.kt$package com.ivy.wallet.domain.pure.util</ID>
-    <ID>InvalidPackageDeclaration:ViewmodelUtils.kt$package com.ivy.frp.viewmodel</ID>
-    <ID>InvalidPackageDeclaration:WalletAccountLogic.kt$package com.ivy.wallet.domain.deprecated.logic</ID>
-    <ID>InvalidPackageDeclaration:WalletCategoryLogic.kt$package com.ivy.wallet.domain.deprecated.logic</ID>
-    <ID>InvalidPackageDeclaration:WalletDAOs.kt$package com.ivy.wallet.domain.pure.data</ID>
-    <ID>InvalidPackageDeclaration:WalletValueFunctions.kt$package com.ivy.wallet.domain.pure.transaction</ID>
-    <ID>InvalidPackageDeclaration:WidgetBase.kt$package com.ivy.widgets</ID>
-    <ID>InvalidPackageDeclaration:WrapContentRow.kt$package com.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:AccTrnsAct.kt$package kg.ivy.wallet.domain.action.account</ID>
+    <ID>InvalidPackageDeclaration:AccValueFunctions.kt$package kg.ivy.wallet.domain.pure.transaction</ID>
+    <ID>InvalidPackageDeclaration:AccountByIdAct.kt$package kg.ivy.wallet.domain.action.account</ID>
+    <ID>InvalidPackageDeclaration:AccountDataAct.kt$package kg.ivy.wallet.domain.action.viewmodel.account</ID>
+    <ID>InvalidPackageDeclaration:AccountFunctions.kt$package kg.ivy.wallet.domain.pure.account</ID>
+    <ID>InvalidPackageDeclaration:AccountModal.kt$package kg.ivy.wallet.ui.theme.modal.edit</ID>
+    <ID>InvalidPackageDeclaration:AccountsAct.kt$package kg.ivy.wallet.domain.action.account</ID>
+    <ID>InvalidPackageDeclaration:Action.kt$package kg.ivy.frp.action</ID>
+    <ID>InvalidPackageDeclaration:AddKeywordModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:AddPrimaryAttributeButton.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:AllTrnsAct.kt$package kg.ivy.wallet.domain.action.transaction</ID>
+    <ID>InvalidPackageDeclaration:AmountCurrency.kt$package kg.ivy.wallet.ui.theme.wallet</ID>
+    <ID>InvalidPackageDeclaration:AmountModal.kt$package kg.ivy.wallet.ui.theme.modal.edit</ID>
+    <ID>InvalidPackageDeclaration:Annotations.kt$package kg.ivy.frp</ID>
+    <ID>InvalidPackageDeclaration:BackBottomBar.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:BalanceRow.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:BaseCurrencyAct.kt$package kg.ivy.wallet.domain.action.settings</ID>
+    <ID>InvalidPackageDeclaration:BudgetsAct.kt$package kg.ivy.wallet.domain.action.budget</ID>
+    <ID>InvalidPackageDeclaration:BufferBattery.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:BufferModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:CSVMapper.kt$package kg.ivy.wallet.domain.deprecated.logic.csv</ID>
+    <ID>InvalidPackageDeclaration:CSVNormalizer.kt$package kg.ivy.wallet.domain.deprecated.logic.csv</ID>
+    <ID>InvalidPackageDeclaration:CalcAccBalanceAct.kt$package kg.ivy.wallet.domain.action.account</ID>
+    <ID>InvalidPackageDeclaration:CalcAccIncomeExpenseAct.kt$package kg.ivy.wallet.domain.action.account</ID>
+    <ID>InvalidPackageDeclaration:CalcBufferDiffAct.kt$package kg.ivy.wallet.domain.action.settings</ID>
+    <ID>InvalidPackageDeclaration:CalcIncomeExpenseAct.kt$package kg.ivy.wallet.domain.action.wallet</ID>
+    <ID>InvalidPackageDeclaration:CalcTrnsIncomeExpenseAct.kt$package kg.ivy.wallet.domain.action.transaction</ID>
+    <ID>InvalidPackageDeclaration:CalcWalletBalanceAct.kt$package kg.ivy.wallet.domain.action.wallet</ID>
+    <ID>InvalidPackageDeclaration:CalculatorModal.kt$package kg.ivy.wallet.ui.theme.modal.edit</ID>
+    <ID>InvalidPackageDeclaration:CatValueFunctions.kt$package kg.ivy.wallet.domain.pure.transaction</ID>
+    <ID>InvalidPackageDeclaration:CategoriesAct.kt$package kg.ivy.wallet.domain.action.category</ID>
+    <ID>InvalidPackageDeclaration:Category.kt$package kg.ivy.wallet.ui.edit.core</ID>
+    <ID>InvalidPackageDeclaration:CategoryByIdAct.kt$package kg.ivy.wallet.domain.action.category</ID>
+    <ID>InvalidPackageDeclaration:CategoryCreator.kt$package kg.ivy.wallet.domain.deprecated.logic</ID>
+    <ID>InvalidPackageDeclaration:CategoryIncomeWithAccountFiltersAct.kt$package kg.ivy.wallet.domain.action.category</ID>
+    <ID>InvalidPackageDeclaration:CategoryModal.kt$package kg.ivy.wallet.ui.theme.modal.edit</ID>
+    <ID>InvalidPackageDeclaration:CategoryTrnsBetweenAct.kt$package kg.ivy.wallet.domain.action.category</ID>
+    <ID>InvalidPackageDeclaration:ChangeTransactionTypeModal.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:ChooseCategoryModal.kt$package kg.ivy.wallet.ui.theme.modal.edit</ID>
+    <ID>InvalidPackageDeclaration:ChooseIconModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:ChoosePeriodModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:ChooseStartDateOfMonthModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:CircleButtons.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:ClosedTimeRange.kt$package kg.ivy.wallet.domain.pure.data</ID>
+    <ID>InvalidPackageDeclaration:Composition.kt$package kg.ivy.frp</ID>
+    <ID>InvalidPackageDeclaration:Composition2.kt$package kg.ivy.frp</ID>
+    <ID>InvalidPackageDeclaration:CompositionFilter.kt$package kg.ivy.frp.action</ID>
+    <ID>InvalidPackageDeclaration:CompositionMap.kt$package kg.ivy.frp.action</ID>
+    <ID>InvalidPackageDeclaration:CompositionN.kt$package kg.ivy.frp</ID>
+    <ID>InvalidPackageDeclaration:CompositionSum.kt$package kg.ivy.frp.action</ID>
+    <ID>InvalidPackageDeclaration:CreateAccountData.kt$package kg.ivy.wallet.domain.deprecated.logic.model</ID>
+    <ID>InvalidPackageDeclaration:CreateBudgetData.kt$package kg.ivy.wallet.domain.deprecated.logic.model</ID>
+    <ID>InvalidPackageDeclaration:CreateCategoryData.kt$package kg.ivy.wallet.domain.deprecated.logic.model</ID>
+    <ID>InvalidPackageDeclaration:CreateLoanData.kt$package kg.ivy.wallet.domain.deprecated.logic.model</ID>
+    <ID>InvalidPackageDeclaration:CreateLoanRecordData.kt$package kg.ivy.wallet.domain.deprecated.logic.model</ID>
+    <ID>InvalidPackageDeclaration:CurrencyModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:CurrencyPicker.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:CustomExchangeRateCard.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:CustomExchangeRateState.kt$package kg.ivy.wallet.domain.data</ID>
+    <ID>InvalidPackageDeclaration:DeleteButton.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:DeleteModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:Description.kt$package kg.ivy.wallet.ui.edit.core</ID>
+    <ID>InvalidPackageDeclaration:DescriptionModal.kt$package kg.ivy.wallet.ui.theme.modal.edit</ID>
+    <ID>InvalidPackageDeclaration:DueDate.kt$package kg.ivy.wallet.ui.edit.core</ID>
+    <ID>InvalidPackageDeclaration:DueTrnsAct.kt$package kg.ivy.wallet.domain.action.transaction</ID>
+    <ID>InvalidPackageDeclaration:DueTrnsInfoAct.kt$package kg.ivy.wallet.domain.action.viewmodel.home</ID>
+    <ID>InvalidPackageDeclaration:EditBottomSheet.kt$package kg.ivy.wallet.ui.edit.core</ID>
+    <ID>InvalidPackageDeclaration:EditLoanRecordData.kt$package kg.ivy.wallet.domain.deprecated.logic.model</ID>
+    <ID>InvalidPackageDeclaration:Exchange.kt$package kg.ivy.wallet.domain.pure.exchange</ID>
+    <ID>InvalidPackageDeclaration:ExchangeAct.kt$package kg.ivy.wallet.domain.action.exchange</ID>
+    <ID>InvalidPackageDeclaration:ExchangeRatesLogic.kt$package kg.ivy.wallet.domain.deprecated.logic.currency</ID>
+    <ID>InvalidPackageDeclaration:ExchangeTrns.kt$package kg.ivy.wallet.domain.pure.exchange</ID>
+    <ID>InvalidPackageDeclaration:ExportCSVLogic.kt$package kg.ivy.wallet.domain.deprecated.logic.csv</ID>
+    <ID>InvalidPackageDeclaration:FPAction.kt$package kg.ivy.frp.action</ID>
+    <ID>InvalidPackageDeclaration:FRPComposable.kt$package kg.ivy.frp.view</ID>
+    <ID>InvalidPackageDeclaration:FRPViewModel.kt$package kg.ivy.frp.viewmodel</ID>
+    <ID>InvalidPackageDeclaration:FoldTransactions.kt$package kg.ivy.wallet.domain.pure.transaction</ID>
+    <ID>InvalidPackageDeclaration:GradientCut.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:HasTrnsAct.kt$package kg.ivy.wallet.domain.action.viewmodel.home</ID>
+    <ID>InvalidPackageDeclaration:HistoryTrnsAct.kt$package kg.ivy.wallet.domain.action.transaction</ID>
+    <ID>InvalidPackageDeclaration:HistoryWithDateDivsAct.kt$package kg.ivy.wallet.domain.action.transaction</ID>
+    <ID>InvalidPackageDeclaration:IncomeExpensePair.kt$package kg.ivy.wallet.domain.pure.data</ID>
+    <ID>InvalidPackageDeclaration:IncomeExpenseTransferPair.kt$package kg.ivy.wallet.domain.pure.data</ID>
+    <ID>InvalidPackageDeclaration:IntervalPickerRow.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IntervalType.kt$package kg.ivy.data.model</ID>
+    <ID>InvalidPackageDeclaration:ItemIcon.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyBasicTextField.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyBorderButton.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyButton.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyCheckbox.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyChecklistTextField.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyCircleButton.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyColorPicker.kt$package kg.ivy.domain.legacy.ui</ID>
+    <ID>InvalidPackageDeclaration:IvyColors.kt$package kg.ivy.wallet.ui.theme</ID>
+    <ID>InvalidPackageDeclaration:IvyComponents.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyCurrency.kt$package kg.ivy.wallet.domain.data</ID>
+    <ID>InvalidPackageDeclaration:IvyDataStore.kt$package kg.ivy.wallet.io.persistence.datastore</ID>
+    <ID>InvalidPackageDeclaration:IvyDescriptionTextField.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyDivider.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyDividerDot.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyDomainUtils.kt$package kg.ivy.wallet.domain.pure.util</ID>
+    <ID>InvalidPackageDeclaration:IvyIcon.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyLineChart.kt$package kg.ivy.wallet.ui.theme.components.charts.linechart</ID>
+    <ID>InvalidPackageDeclaration:IvyModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:IvyModalComponents.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:IvyModalDomainComponents.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:IvyNameTextFieldValue.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyNotification.kt$package kg.ivy.wallet.android.notification</ID>
+    <ID>InvalidPackageDeclaration:IvyNotificationChannel.kt$package kg.ivy.wallet.android.notification</ID>
+    <ID>InvalidPackageDeclaration:IvyNumberTextField.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyOutlinedButton.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyOutlinedTextField.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvySwitch.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyTitleTextField.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:IvyToolbar.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:LTLoanMapper.kt$package kg.ivy.wallet.domain.deprecated.logic.loantrasactions</ID>
+    <ID>InvalidPackageDeclaration:LTLoanRecordMapper.kt$package kg.ivy.wallet.domain.deprecated.logic.loantrasactions</ID>
+    <ID>InvalidPackageDeclaration:ListItem.kt$package kg.ivy.domain.legacy.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:LoanByIdAct.kt$package kg.ivy.wallet.domain.action.loan</ID>
+    <ID>InvalidPackageDeclaration:LoanCreator.kt$package kg.ivy.wallet.domain.deprecated.logic</ID>
+    <ID>InvalidPackageDeclaration:LoanModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:LoanRecordCreator.kt$package kg.ivy.wallet.domain.deprecated.logic</ID>
+    <ID>InvalidPackageDeclaration:LoanRecordModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:LoanTransactionsLogic.kt$package kg.ivy.wallet.domain.deprecated.logic.loantrasactions</ID>
+    <ID>InvalidPackageDeclaration:LoanType.kt$package kg.ivy.data.model</ID>
+    <ID>InvalidPackageDeclaration:LoansAct.kt$package kg.ivy.wallet.domain.action.loan</ID>
+    <ID>InvalidPackageDeclaration:Migration105to106_TrnRecurringRules.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration106to107_Wishlist.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration107to108_Sync.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration108to109_Users.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration109to110_PlannedPayments.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration110to111_PlannedPaymentRule.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration111to112_User_testUser.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration112to113_ExchangeRates.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration113to114_Multi_Currency.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration114to115_Category_Account_Icons.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration115to116_Account_Include_In_Balance.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration116to117_SalteEdgeIntgration.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration117to118_Budgets.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration118to119_Loans.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration119to120_LoanTransactions.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration120to121_DropWishlistItem.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:Migration122to123_ExchangeRates.kt$package kg.ivy.domain.db.migration</ID>
+    <ID>InvalidPackageDeclaration:MonthPickerModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:NameModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:NotificationService.kt$package kg.ivy.wallet.android.notification</ID>
+    <ID>InvalidPackageDeclaration:OnboardingComponents.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:OverdueAct.kt$package kg.ivy.wallet.domain.action.viewmodel.home</ID>
+    <ID>InvalidPackageDeclaration:PeriodSelector.kt$package kg.ivy.wallet.ui.theme.wallet</ID>
+    <ID>InvalidPackageDeclaration:PlannedPaymentsGenerator.kt$package kg.ivy.wallet.domain.deprecated.logic</ID>
+    <ID>InvalidPackageDeclaration:PlannedPaymentsLogic.kt$package kg.ivy.wallet.domain.deprecated.logic</ID>
+    <ID>InvalidPackageDeclaration:PreloadDataLogic.kt$package kg.ivy.wallet.domain.deprecated.logic</ID>
+    <ID>InvalidPackageDeclaration:ProgressBar.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:ProgressModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:RecurringRuleModal.kt$package kg.ivy.wallet.ui.theme.modal</ID>
+    <ID>InvalidPackageDeclaration:ReorderModal.kt$package kg.ivy.wallet.ui.theme.components</ID>
+    <ID>InvalidPackageDeclaration:Reorderable.kt$package kg.ivy.wallet.domain.data</ID>
+    <ID>InvalidPackageDeclaration:Res.kt$package kg.ivy.frp.monad</ID>
+    <ID>InvalidPackageDeclaration:ResComposition.kt$package kg.ivy.frp.monad</ID>
+    <ID>InvalidPackageDeclaration:RoomTypeConverters.kt$package kg.ivy.domain.db</ID>
+    <ID>InvalidPackageDeclaration:RowMapping.kt$package kg.ivy.wallet.domain.deprecated.logic.csv.model</ID>
+    <ID>InvalidPackageDeclaration:SaveTrnLocallyAct.kt$package kg.ivy.wallet.domain.action.viewmodel.transaction</ID>
+    <ID>InvalidPackageDeclaration:SettingsAct.kt$package kg.ivy.wallet.domain.action.settings</ID>
+    <ID>InvalidPackageDeclaration:ShouldHideBalanceAct.kt$package kg.ivy.wallet.domain.action.viewmodel.home</ID>
+    <ID>InvalidPackageDeclaration:SmartTitleSuggestionsLogic.kt$package kg.ivy.wallet.domain.deprecated.logic</ID>
+    <ID>InvalidPackageDeclaration:SortOrder.kt$package kg.ivy.wallet.domain.data</ID>
+    <ID>InvalidPackageDeclaration:StartDayOfMonthAct.kt$package kg.ivy.wallet.domain.action.global</ID>
+    <ID>InvalidPackageDeclaration:TestIdlingResource.kt$package kg.ivy.frp.test</ID>
+    <ID>InvalidPackageDeclaration:TestingContext.kt$package kg.ivy.frp.test</ID>
+    <ID>InvalidPackageDeclaration:Title.kt$package kg.ivy.wallet.ui.edit.core</ID>
+    <ID>InvalidPackageDeclaration:Toolbar.kt$package kg.ivy.wallet.ui.edit.core</ID>
+    <ID>InvalidPackageDeclaration:TransactionHistoryDateDivider.kt$package kg.ivy.wallet.domain.data</ID>
+    <ID>InvalidPackageDeclaration:TransactionReminderLogic.kt$package kg.ivy.wallet.domain.deprecated.logic.notification</ID>
+    <ID>InvalidPackageDeclaration:TransactionReminderWorker.kt$package kg.ivy.wallet.domain.deprecated.logic.notification</ID>
+    <ID>InvalidPackageDeclaration:TrnByIdAct.kt$package kg.ivy.wallet.domain.action.transaction</ID>
+    <ID>InvalidPackageDeclaration:TrnDateDividers.kt$package kg.ivy.wallet.domain.pure.transaction</ID>
+    <ID>InvalidPackageDeclaration:TrnFunctions.kt$package kg.ivy.wallet.domain.pure.transaction</ID>
+    <ID>InvalidPackageDeclaration:TrnsWithDateDivsAct.kt$package kg.ivy.wallet.domain.action.transaction</ID>
+    <ID>InvalidPackageDeclaration:TrnsWithRangeAndAccFiltersAct.kt$package kg.ivy.wallet.domain.action.transaction</ID>
+    <ID>InvalidPackageDeclaration:UpcomingAct.kt$package kg.ivy.wallet.domain.action.viewmodel.home</ID>
+    <ID>InvalidPackageDeclaration:UpdateAccCacheAct.kt$package kg.ivy.wallet.domain.action.viewmodel.home</ID>
+    <ID>InvalidPackageDeclaration:UpdateCategoriesCacheAct.kt$package kg.ivy.wallet.domain.action.viewmodel.home</ID>
+    <ID>InvalidPackageDeclaration:UpdateStartDayOfMonthAct.kt$package kg.ivy.wallet.domain.action.global</ID>
+    <ID>InvalidPackageDeclaration:Utils.kt$package kg.ivy.frp</ID>
+    <ID>InvalidPackageDeclaration:Utils.kt$package kg.ivy.wallet.domain.pure.util</ID>
+    <ID>InvalidPackageDeclaration:ViewmodelUtils.kt$package kg.ivy.frp.viewmodel</ID>
+    <ID>InvalidPackageDeclaration:WalletAccountLogic.kt$package kg.ivy.wallet.domain.deprecated.logic</ID>
+    <ID>InvalidPackageDeclaration:WalletCategoryLogic.kt$package kg.ivy.wallet.domain.deprecated.logic</ID>
+    <ID>InvalidPackageDeclaration:WalletDAOs.kt$package kg.ivy.wallet.domain.pure.data</ID>
+    <ID>InvalidPackageDeclaration:WalletValueFunctions.kt$package kg.ivy.wallet.domain.pure.transaction</ID>
+    <ID>InvalidPackageDeclaration:WidgetBase.kt$package kg.ivy.widgets</ID>
+    <ID>InvalidPackageDeclaration:WrapContentRow.kt$package kg.ivy.wallet.ui.theme.components</ID>
     <ID>LargeClass:TransactionsViewModel.kt$TransactionsViewModel : ComposeViewModel</ID>
     <ID>LongMethod:AccountModal.kt$@Deprecated("Old design system. Use `:ivy-design` and Material3") @Composable fun BoxWithConstraintsScope.AccountModal( modal: AccountModalData?, onCreateAccount: (CreateAccountData) -&gt; Unit, onEditAccount: (Account, balance: Double) -&gt; Unit, dismiss: () -&gt; Unit, )</ID>
     <ID>LongMethod:ChooseIconModal.kt$fun ivyIcons(): List&lt;Any&gt;</ID>
@@ -5029,7 +5029,7 @@
     <ID>NoImplicitFunctionReturnType:IvyColors.kt$Gradient$@Deprecated("Old design system. Use `:ivy-design` and Material3") fun asHorizontalBrush()</ID>
     <ID>NoImplicitFunctionReturnType:IvyColors.kt$Gradient$@Deprecated("Old design system. Use `:ivy-design` and Material3") fun asVerticalBrush()</ID>
     <ID>NoImplicitFunctionReturnType:IvyColors.kt$Gradient.Companion$@Deprecated("Old design system. Use `:ivy-design` and Material3") @Composable fun black()</ID>
-    <ID>NoImplicitFunctionReturnType:IvyColors.kt$Gradient.Companion$@Deprecated("Old design system. Use `:ivy-design` and Material3") fun from(gradient: com.ivy.design.l0_system.Gradient)</ID>
+    <ID>NoImplicitFunctionReturnType:IvyColors.kt$Gradient.Companion$@Deprecated("Old design system. Use `:ivy-design` and Material3") fun from(gradient: kg.ivy.design.l0_system.Gradient)</ID>
     <ID>NoImplicitFunctionReturnType:IvyColors.kt$Gradient.Companion$@Deprecated("Old design system. Use `:ivy-design` and Material3") fun from(startColor: Int, endColor: Int?)</ID>
     <ID>NoImplicitFunctionReturnType:IvyColors.kt$Gradient.Companion$@Deprecated("Old design system. Use `:ivy-design` and Material3") fun solid(color: Color)</ID>
     <ID>NoImplicitFunctionReturnType:IvyModal.kt$@Composable fun modalPreviewActionRowHeight()</ID>
@@ -7098,15 +7098,15 @@
     <ID>NoWildcardImports:ImplementationConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
     <ID>NoWildcardImports:ImplementationDependenciesMetadataConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>
     <ID>NoWildcardImports:ImplementationDependenciesMetadataConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
-    <ID>NoWildcardImports:InputField.kt$import com.ivy.design.l0_system.*</ID>
-    <ID>NoWildcardImports:InputField.kt$import com.ivy.design.utils.*</ID>
+    <ID>NoWildcardImports:InputField.kt$import kg.ivy.design.l0_system.*</ID>
+    <ID>NoWildcardImports:InputField.kt$import kg.ivy.design.utils.*</ID>
     <ID>NoWildcardImports:IntransitiveDependenciesMetadataConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>
     <ID>NoWildcardImports:IntransitiveDependenciesMetadataConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
     <ID>NoWildcardImports:IvyRoomDatabase.kt$import androidx.room.*</ID>
     <ID>NoWildcardImports:IvySwitch.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>NoWildcardImports:IvySwitch.kt$import androidx.compose.runtime.*</ID>
     <ID>NoWildcardImports:IvyToolbar.kt$import androidx.compose.foundation.layout.*</ID>
-    <ID>NoWildcardImports:IvyWalletDesign.kt$import com.ivy.design.l0_system.*</ID>
+    <ID>NoWildcardImports:IvyWalletDesign.kt$import kg.ivy.design.l0_system.*</ID>
     <ID>NoWildcardImports:Keyboard.kt$import androidx.compose.runtime.*</ID>
     <ID>NoWildcardImports:KotlinBuildToolsApiClasspathConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>
     <ID>NoWildcardImports:KotlinBuildToolsApiClasspathConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
@@ -7157,9 +7157,9 @@
     <ID>NoWildcardImports:MainSourceElementsConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>
     <ID>NoWildcardImports:MainSourceElementsConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
     <ID>NoWildcardImports:PieChart.kt$import androidx.compose.foundation.layout.*</ID>
-    <ID>NoWildcardImports:PieChart.kt$import com.ivy.wallet.ui.theme.*</ID>
-    <ID>NoWildcardImports:PreloadDataLogic.kt$import com.ivy.design.l0_system.*</ID>
-    <ID>NoWildcardImports:ProgressBar.kt$import com.ivy.wallet.ui.theme.*</ID>
+    <ID>NoWildcardImports:PieChart.kt$import kg.ivy.wallet.ui.theme.*</ID>
+    <ID>NoWildcardImports:PreloadDataLogic.kt$import kg.ivy.design.l0_system.*</ID>
+    <ID>NoWildcardImports:ProgressBar.kt$import kg.ivy.wallet.ui.theme.*</ID>
     <ID>NoWildcardImports:ReleaseAnnotationProcessorConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>
     <ID>NoWildcardImports:ReleaseAnnotationProcessorConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
     <ID>NoWildcardImports:ReleaseApiConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>
@@ -8189,12 +8189,12 @@
     <ID>PackageName:ArchivesConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageName:ArchivesConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageName:ArchivesConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
-    <ID>PackageName:Background.kt$package com.ivy.design.l1_buildingBlocks.data</ID>
-    <ID>PackageName:Button.kt$package com.ivy.design.l2_components</ID>
-    <ID>PackageName:ButtonWithIcon.kt$package com.ivy.design.l2_components</ID>
-    <ID>PackageName:Checkbox.kt$package com.ivy.design.l2_components</ID>
-    <ID>PackageName:Colors.kt$package com.ivy.design.l0_system</ID>
-    <ID>PackageName:ColumnRoot.kt$package com.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageName:Background.kt$package kg.ivy.design.l1_buildingBlocks.data</ID>
+    <ID>PackageName:Button.kt$package kg.ivy.design.l2_components</ID>
+    <ID>PackageName:ButtonWithIcon.kt$package kg.ivy.design.l2_components</ID>
+    <ID>PackageName:Checkbox.kt$package kg.ivy.design.l2_components</ID>
+    <ID>PackageName:Colors.kt$package kg.ivy.design.l0_system</ID>
+    <ID>PackageName:ColumnRoot.kt$package kg.ivy.design.l1_buildingBlocks</ID>
     <ID>PackageName:CompileClasspathConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageName:CompileOnlyConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageName:CompileOnlyConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
@@ -8243,8 +8243,8 @@
     <ID>PackageName:DefaultConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
     <ID>PackageName:DetektConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._6b1cdd1e881959619ea23cf7941079a9</ID>
     <ID>PackageName:DetektPluginsConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._6b1cdd1e881959619ea23cf7941079a9</ID>
-    <ID>PackageName:Dividers.kt$package com.ivy.design.l1_buildingBlocks</ID>
-    <ID>PackageName:IconButton.kt$package com.ivy.design.l2_components</ID>
+    <ID>PackageName:Dividers.kt$package kg.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageName:IconButton.kt$package kg.ivy.design.l2_components</ID>
     <ID>PackageName:ImplementationConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageName:ImplementationConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageName:ImplementationConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
@@ -8253,18 +8253,18 @@
     <ID>PackageName:ImplementationDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageName:ImplementationDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageName:ImplementationDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
-    <ID>PackageName:InputField.kt$package com.ivy.design.l2_components</ID>
+    <ID>PackageName:InputField.kt$package kg.ivy.design.l2_components</ID>
     <ID>PackageName:IntransitiveDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageName:IntransitiveDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageName:IntransitiveDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageName:IntransitiveDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
-    <ID>PackageName:IvyColors.kt$package com.ivy.design.l0_system</ID>
-    <ID>PackageName:IvyIcon.kt$package com.ivy.design.l1_buildingBlocks</ID>
-    <ID>PackageName:IvyPadding.kt$package com.ivy.design.l1_buildingBlocks.data</ID>
-    <ID>PackageName:IvyShapes.kt$package com.ivy.design.l0_system</ID>
-    <ID>PackageName:IvyText.kt$package com.ivy.design.l1_buildingBlocks</ID>
-    <ID>PackageName:IvyTheme.kt$package com.ivy.design.l0_system</ID>
-    <ID>PackageName:IvyTypography.kt$package com.ivy.design.l0_system</ID>
+    <ID>PackageName:IvyColors.kt$package kg.ivy.design.l0_system</ID>
+    <ID>PackageName:IvyIcon.kt$package kg.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageName:IvyPadding.kt$package kg.ivy.design.l1_buildingBlocks.data</ID>
+    <ID>PackageName:IvyShapes.kt$package kg.ivy.design.l0_system</ID>
+    <ID>PackageName:IvyText.kt$package kg.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageName:IvyTheme.kt$package kg.ivy.design.l0_system</ID>
+    <ID>PackageName:IvyTypography.kt$package kg.ivy.design.l0_system</ID>
     <ID>PackageName:KotlinBuildToolsApiClasspathConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageName:KotlinBuildToolsApiClasspathConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageName:KotlinBuildToolsApiClasspathConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
@@ -8369,10 +8369,10 @@
     <ID>PackageName:RuntimeOnlyConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageName:RuntimeOnlyConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageName:RuntimeOnlyConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
-    <ID>PackageName:ScreenTitle.kt$package com.ivy.design.l3_ivyComponents</ID>
-    <ID>PackageName:Shapes.kt$package com.ivy.design.l1_buildingBlocks</ID>
-    <ID>PackageName:Spacers.kt$package com.ivy.design.l1_buildingBlocks</ID>
-    <ID>PackageName:Switch.kt$package com.ivy.design.l2_components</ID>
+    <ID>PackageName:ScreenTitle.kt$package kg.ivy.design.l3_ivyComponents</ID>
+    <ID>PackageName:Shapes.kt$package kg.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageName:Spacers.kt$package kg.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageName:Switch.kt$package kg.ivy.design.l2_components</ID>
     <ID>PackageName:TestAnnotationProcessorConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageName:TestAnnotationProcessorConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageName:TestAnnotationProcessorConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
@@ -8567,7 +8567,7 @@
     <ID>PackageName:TestWearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageName:TestWearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageName:TestWearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
-    <ID>PackageName:TypographyExt.kt$package com.ivy.design.l0_system</ID>
+    <ID>PackageName:TypographyExt.kt$package kg.ivy.design.l0_system</ID>
     <ID>PackageName:WearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageName:WearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageName:WearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
@@ -9435,12 +9435,12 @@
     <ID>PackageNaming:ArchivesConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageNaming:ArchivesConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageNaming:ArchivesConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
-    <ID>PackageNaming:Background.kt$package com.ivy.design.l1_buildingBlocks.data</ID>
-    <ID>PackageNaming:Button.kt$package com.ivy.design.l2_components</ID>
-    <ID>PackageNaming:ButtonWithIcon.kt$package com.ivy.design.l2_components</ID>
-    <ID>PackageNaming:Checkbox.kt$package com.ivy.design.l2_components</ID>
-    <ID>PackageNaming:Colors.kt$package com.ivy.design.l0_system</ID>
-    <ID>PackageNaming:ColumnRoot.kt$package com.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageNaming:Background.kt$package kg.ivy.design.l1_buildingBlocks.data</ID>
+    <ID>PackageNaming:Button.kt$package kg.ivy.design.l2_components</ID>
+    <ID>PackageNaming:ButtonWithIcon.kt$package kg.ivy.design.l2_components</ID>
+    <ID>PackageNaming:Checkbox.kt$package kg.ivy.design.l2_components</ID>
+    <ID>PackageNaming:Colors.kt$package kg.ivy.design.l0_system</ID>
+    <ID>PackageNaming:ColumnRoot.kt$package kg.ivy.design.l1_buildingBlocks</ID>
     <ID>PackageNaming:CompileClasspathConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageNaming:CompileOnlyConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageNaming:CompileOnlyConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
@@ -9489,8 +9489,8 @@
     <ID>PackageNaming:DefaultConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
     <ID>PackageNaming:DetektConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._6b1cdd1e881959619ea23cf7941079a9</ID>
     <ID>PackageNaming:DetektPluginsConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._6b1cdd1e881959619ea23cf7941079a9</ID>
-    <ID>PackageNaming:Dividers.kt$package com.ivy.design.l1_buildingBlocks</ID>
-    <ID>PackageNaming:IconButton.kt$package com.ivy.design.l2_components</ID>
+    <ID>PackageNaming:Dividers.kt$package kg.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageNaming:IconButton.kt$package kg.ivy.design.l2_components</ID>
     <ID>PackageNaming:ImplementationConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageNaming:ImplementationConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageNaming:ImplementationConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
@@ -9499,18 +9499,18 @@
     <ID>PackageNaming:ImplementationDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageNaming:ImplementationDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageNaming:ImplementationDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
-    <ID>PackageNaming:InputField.kt$package com.ivy.design.l2_components</ID>
+    <ID>PackageNaming:InputField.kt$package kg.ivy.design.l2_components</ID>
     <ID>PackageNaming:IntransitiveDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageNaming:IntransitiveDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageNaming:IntransitiveDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageNaming:IntransitiveDependenciesMetadataConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
-    <ID>PackageNaming:IvyColors.kt$package com.ivy.design.l0_system</ID>
-    <ID>PackageNaming:IvyIcon.kt$package com.ivy.design.l1_buildingBlocks</ID>
-    <ID>PackageNaming:IvyPadding.kt$package com.ivy.design.l1_buildingBlocks.data</ID>
-    <ID>PackageNaming:IvyShapes.kt$package com.ivy.design.l0_system</ID>
-    <ID>PackageNaming:IvyText.kt$package com.ivy.design.l1_buildingBlocks</ID>
-    <ID>PackageNaming:IvyTheme.kt$package com.ivy.design.l0_system</ID>
-    <ID>PackageNaming:IvyTypography.kt$package com.ivy.design.l0_system</ID>
+    <ID>PackageNaming:IvyColors.kt$package kg.ivy.design.l0_system</ID>
+    <ID>PackageNaming:IvyIcon.kt$package kg.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageNaming:IvyPadding.kt$package kg.ivy.design.l1_buildingBlocks.data</ID>
+    <ID>PackageNaming:IvyShapes.kt$package kg.ivy.design.l0_system</ID>
+    <ID>PackageNaming:IvyText.kt$package kg.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageNaming:IvyTheme.kt$package kg.ivy.design.l0_system</ID>
+    <ID>PackageNaming:IvyTypography.kt$package kg.ivy.design.l0_system</ID>
     <ID>PackageNaming:KotlinBuildToolsApiClasspathConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageNaming:KotlinBuildToolsApiClasspathConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageNaming:KotlinBuildToolsApiClasspathConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
@@ -9615,10 +9615,10 @@
     <ID>PackageNaming:RuntimeOnlyConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageNaming:RuntimeOnlyConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageNaming:RuntimeOnlyConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
-    <ID>PackageNaming:ScreenTitle.kt$package com.ivy.design.l3_ivyComponents</ID>
-    <ID>PackageNaming:Shapes.kt$package com.ivy.design.l1_buildingBlocks</ID>
-    <ID>PackageNaming:Spacers.kt$package com.ivy.design.l1_buildingBlocks</ID>
-    <ID>PackageNaming:Switch.kt$package com.ivy.design.l2_components</ID>
+    <ID>PackageNaming:ScreenTitle.kt$package kg.ivy.design.l3_ivyComponents</ID>
+    <ID>PackageNaming:Shapes.kt$package kg.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageNaming:Spacers.kt$package kg.ivy.design.l1_buildingBlocks</ID>
+    <ID>PackageNaming:Switch.kt$package kg.ivy.design.l2_components</ID>
     <ID>PackageNaming:TestAnnotationProcessorConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageNaming:TestAnnotationProcessorConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._a568f78b412045bc377fc4283b656e34</ID>
     <ID>PackageNaming:TestAnnotationProcessorConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
@@ -9813,7 +9813,7 @@
     <ID>PackageNaming:TestWearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageNaming:TestWearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageNaming:TestWearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
-    <ID>PackageNaming:TypographyExt.kt$package com.ivy.design.l0_system</ID>
+    <ID>PackageNaming:TypographyExt.kt$package kg.ivy.design.l0_system</ID>
     <ID>PackageNaming:WearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._0f6c96550b20caec005f95558bbb0634</ID>
     <ID>PackageNaming:WearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._c23ff688c05f8d96905906a4ad831734</ID>
     <ID>PackageNaming:WearAppConfigurationAccessors.kt$package gradle.kotlin.dsl.accessors._d2d1dfc15d0c2a9463dd9442318702f0</ID>
@@ -11296,15 +11296,15 @@
     <ID>WildcardImport:ImplementationConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
     <ID>WildcardImport:ImplementationDependenciesMetadataConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>
     <ID>WildcardImport:ImplementationDependenciesMetadataConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
-    <ID>WildcardImport:InputField.kt$import com.ivy.design.l0_system.*</ID>
-    <ID>WildcardImport:InputField.kt$import com.ivy.design.utils.*</ID>
+    <ID>WildcardImport:InputField.kt$import kg.ivy.design.l0_system.*</ID>
+    <ID>WildcardImport:InputField.kt$import kg.ivy.design.utils.*</ID>
     <ID>WildcardImport:IntransitiveDependenciesMetadataConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>
     <ID>WildcardImport:IntransitiveDependenciesMetadataConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
     <ID>WildcardImport:IvyRoomDatabase.kt$import androidx.room.*</ID>
     <ID>WildcardImport:IvySwitch.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:IvySwitch.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:IvyToolbar.kt$import androidx.compose.foundation.layout.*</ID>
-    <ID>WildcardImport:IvyWalletDesign.kt$import com.ivy.design.l0_system.*</ID>
+    <ID>WildcardImport:IvyWalletDesign.kt$import kg.ivy.design.l0_system.*</ID>
     <ID>WildcardImport:Keyboard.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:KotlinBuildToolsApiClasspathConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>
     <ID>WildcardImport:KotlinBuildToolsApiClasspathConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
@@ -11355,9 +11355,9 @@
     <ID>WildcardImport:MainSourceElementsConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>
     <ID>WildcardImport:MainSourceElementsConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
     <ID>WildcardImport:PieChart.kt$import androidx.compose.foundation.layout.*</ID>
-    <ID>WildcardImport:PieChart.kt$import com.ivy.wallet.ui.theme.*</ID>
-    <ID>WildcardImport:PreloadDataLogic.kt$import com.ivy.design.l0_system.*</ID>
-    <ID>WildcardImport:ProgressBar.kt$import com.ivy.wallet.ui.theme.*</ID>
+    <ID>WildcardImport:PieChart.kt$import kg.ivy.wallet.ui.theme.*</ID>
+    <ID>WildcardImport:PreloadDataLogic.kt$import kg.ivy.design.l0_system.*</ID>
+    <ID>WildcardImport:ProgressBar.kt$import kg.ivy.wallet.ui.theme.*</ID>
     <ID>WildcardImport:ReleaseAnnotationProcessorConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>
     <ID>WildcardImport:ReleaseAnnotationProcessorConfigurationAccessors.kt$import org.gradle.kotlin.dsl.accessors.runtime.*</ID>
     <ID>WildcardImport:ReleaseApiConfigurationAccessors.kt$import org.gradle.kotlin.dsl.*</ID>

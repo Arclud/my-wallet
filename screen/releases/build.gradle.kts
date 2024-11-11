@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.releases"
+    namespace = "kg.ivy.releases"
 }
 
 dependencies {

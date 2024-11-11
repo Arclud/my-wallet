@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.budgets"
+    namespace = "kg.ivy.budgets"
 }
 
 dependencies {

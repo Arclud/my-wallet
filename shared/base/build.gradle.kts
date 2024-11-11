@@ -3,5 +3,5 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.base"
+    namespace = "kg.ivy.base"
 }

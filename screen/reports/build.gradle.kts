@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.reports"
+    namespace = "kg.ivy.reports"
 }
 
 dependencies {

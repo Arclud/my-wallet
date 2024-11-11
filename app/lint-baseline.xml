@@ -11831,7 +11831,7 @@
 
     <issue
         id="ComposeParameterOrder"
-        message="Parameters in a composable function should be ordered following this pattern: params without defaults, modifiers, params with defaults and optionally, a trailing function that might not have a default param.&#xA;Current params are: [modifier: Modifier = Modifier, period: com.ivy.legacy.data.model.TimePeriod, onPreviousMonth: () -> Unit, onNextMonth: () -> Unit, onShowChoosePeriodModal: () -> Unit] but should be [period: com.ivy.legacy.data.model.TimePeriod, onPreviousMonth: () -> Unit, onNextMonth: () -> Unit, modifier: Modifier = Modifier, onShowChoosePeriodModal: () -> Unit].&#xA;See https://slackhq.github.io/compose-lints/rules/#ordering-composable-parameters-properly for more information."
+        message="Parameters in a composable function should be ordered following this pattern: params without defaults, modifiers, params with defaults and optionally, a trailing function that might not have a default param.&#xA;Current params are: [modifier: Modifier = Modifier, period: kg.ivy.legacy.data.model.TimePeriod, onPreviousMonth: () -> Unit, onNextMonth: () -> Unit, onShowChoosePeriodModal: () -> Unit] but should be [period: kg.ivy.legacy.data.model.TimePeriod, onPreviousMonth: () -> Unit, onNextMonth: () -> Unit, modifier: Modifier = Modifier, onShowChoosePeriodModal: () -> Unit].&#xA;See https://slackhq.github.io/compose-lints/rules/#ordering-composable-parameters-properly for more information."
         errorLine1="fun PeriodSelector("
         errorLine2="                  ^">
         <location

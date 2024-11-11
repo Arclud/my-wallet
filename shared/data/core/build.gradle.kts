@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.data"
+    namespace = "kg.ivy.data"
 }
 
 dependencies {

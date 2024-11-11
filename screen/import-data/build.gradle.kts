@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.importdata"
+    namespace = "kg.ivy.importdata"
 }
 
 dependencies {
