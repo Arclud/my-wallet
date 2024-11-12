@@ -478,8 +478,8 @@
     <string name="note_transaction_associated_with_loan_record_of_loan">Hinweiß: Diese Transaktion ist verbundenen mit einer Darlehensaufzeichnung für Kredit : %1$s\nDu versuchts das Konto für diesen Kredit auf ein Konto mit einer anderen Währung zu ändern\nDie Darlehensaufzeichnung wird mir mit dem Wechselkurse der neuen Währung erneut berechnet</string>
     <string name="note_you_are_trying_to_change_the_account_associated_with_the_loan">Hinweiß: Du versuchst das Konto für den Kredit %1$s aus ein Konto mit anderer Wähung zu ändern.\nAlle Kredite werden mit dem aktuellen Wechselkurs neu berechnet</string>
     <string name="you_can_see_a_piechart">Sie dir eine Kuchendiagramm einen Einnahmen und Ausgaben an in dem zu auf die entsprechende Karte tippst!</string>
-    <string name="it_looks_like_that_you_are_enjoying">Es sieht so aus als würde dir Ivy Wallet gefallen! Tritt unserer Ivy Telegram Community bei um dabei zu helfen die App noch besser zu machen :)</string>
-    <string name="it_looks_like_that_you_are_enjoying_telegram">Es sieht so aus als würde dir Ivy Wallet gefallen! Wenn du noch nicht Mitglied unserer Ivy Telegram Community bist dann tritt jetzt bei und hilf uns zu helfen die App noch besser zu machen :)</string>
+    <string name="it_looks_like_that_you_are_enjoying">Es sieht so aus als würde dir My Wallet gefallen! Tritt unserer Ivy Telegram Community bei um dabei zu helfen die App noch besser zu machen :)</string>
+    <string name="it_looks_like_that_you_are_enjoying_telegram">Es sieht so aus als würde dir My Wallet gefallen! Wenn du noch nicht Mitglied unserer Ivy Telegram Community bist dann tritt jetzt bei und hilf uns zu helfen die App noch besser zu machen :)</string>
     <string name="please_type_category_name">Bitte gib \"%1$s\" ein um die Kategorie zu löschen.</string>
     <string name="you_owe">Du schuldest %1$s</string>
     <string name="you_are_owed">Dir wird geschuldet %1$s</string>
@@ -487,7 +487,7 @@
     <string name="csv_import_failed">Das hat nicht geklappt. Versuche einen manuellen CSV Import.</string>
     <string name="import_a_csv_file_to_continue">Importiere eine CSV Datei um fortzufahren.</string>
     <string name="import_csv_continue">Fortsetzen</string>
-    <string name="warning_import_csv_file">" !!!⚠️ACHTUNG: Ein Import kann zu doppelten Einträgen führen!!! Ivy Wallet kann diese NICHT automatisch entfernt und alle Einträge müssen manuell geprüft werden! Wenn du noch keine Einträge erfasst hast, kannst du diese Meldung ignorieren."</string>
+    <string name="warning_import_csv_file">" !!!⚠️ACHTUNG: Ein Import kann zu doppelten Einträgen führen!!! My Wallet kann diese NICHT automatisch entfernt und alle Einträge müssen manuell geprüft werden! Wenn du noch keine Einträge erfasst hast, kannst du diese Meldung ignorieren."</string>
     <string name="select_tags">Tags auswählen</string>
     <string name="language">Sprache</string>
     <string name="budget_exceeded_info">Budget überschritten um %1$s %2$s</string>

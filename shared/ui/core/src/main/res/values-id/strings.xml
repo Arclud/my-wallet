@@ -397,7 +397,7 @@
     <string name="we_need_your_help">Kami butuh bantuan Anda!</string>
     <string name="we_need_your_help_description">Kami hanya seorang desainer dan seorang pengembang yang bekerja pada aplikasi setelah pekerjaan jam 9-5 kami. Saat ini, kami menginvestasikan banyak waktu dan uang untuk menghasilkan kerugian dan kelelahan. Jika Anda ingin kami terus mengembangkan My Wallet, silakan bagikan kepada teman dan keluarga.\n\nP.S. Ulasan di Google PlayStore juga sangat membantu!</string>
     <string name="ivy_wallet_is_opensource">My Wallet adalah sumber terbuka!</string>
-    <string name="ivy_wallet_is_opensource_description">Kode Ivy Wallet terbuka dan semua orang dapat melihatnya. Kami percaya bahwa transparansi dan etika adalah hal yang harus ada dalam setiap produk perangkat lunak. Jika Anda menyukai pekerjaan kami dan ingin membuat aplikasi menjadi lebih baik, Anda dapat berkontribusi di repositori GitHub kami yang bersifat publik.</string>
+    <string name="ivy_wallet_is_opensource_description">Kode My Wallet terbuka dan semua orang dapat melihatnya. Kami percaya bahwa transparansi dan etika adalah hal yang harus ada dalam setiap produk perangkat lunak. Jika Anda menyukai pekerjaan kami dan ingin membuat aplikasi menjadi lebih baik, Anda dapat berkontribusi di repositori GitHub kami yang bersifat publik.</string>
     <string name="contribute">Berkontribusi</string>
     <string name="adjust_balance">Atur saldo</string>
     <string name="authentication_required">Autentikasi diperlukan</string>

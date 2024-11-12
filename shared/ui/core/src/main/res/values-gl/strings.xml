@@ -490,7 +490,7 @@
     <string name="csv_import_failed">Se isto non funcionou, tenta a importación manual de CSV.</string>
     <string name="import_a_csv_file_to_continue">Importa un ficheiro CSV para continuar.</string>
     <string name="import_csv_continue">Continuar</string>
-    <string name="warning_import_csv_file">"\n!!!⚠️ADVERTENCIA: A importación pode duplicar as transaccións!!!\nAs transaccións duplicadas non se poden eliminar facilmente e terás que eliminalas manualmente unha a unha! \nMotivo: Non podemos analizar os identificadores de transacción porque Ivy Wallet só funciona con UUID e outras aplicacións non.\nSe estás comezando de cero, non te preocupes - ignora amablemente esta mensaxe."</string>
+    <string name="warning_import_csv_file">"\n!!!⚠️ADVERTENCIA: A importación pode duplicar as transaccións!!!\nAs transaccións duplicadas non se poden eliminar facilmente e terás que eliminalas manualmente unha a unha! \nMotivo: Non podemos analizar os identificadores de transacción porque My Wallet só funciona con UUID e outras aplicacións non.\nSe estás comezando de cero, non te preocupes - ignora amablemente esta mensaxe."</string>
     <string name="select_tags">Seleccionar etiquetas</string>
     <string name="bill_paid">A túa factura de %1$s %2$s foi pagada</string>
     <string name="language">Lingua</string>
