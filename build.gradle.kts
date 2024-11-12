@@ -35,7 +35,7 @@ subprojects {
 wrapperUpgrade {
     gradle {
         create("ivyWallet") {
-            repo.set("Ivy-Apps/ivy-wallet")
+            repo.set("Arclud/my-wallet")
             baseBranch.set("main")
         }
     }

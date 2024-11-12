@@ -30,7 +30,7 @@ class ReleasesDataSource @Inject constructor(
     suspend fun fetchReleaseInfo(): List<ReleaseDto>? {
         return try {
             withContext(Dispatchers.IO) {
-                httpClient.get("https://api.github.com/repos/Ivy-Apps/ivy-wallet/releases")
+                httpClient.get("https://api.github.com/repos/arclud/my-wallet/releases")
                     .body<List<ReleaseDto>?>()
             }
         } catch (e: Exception) {

@@ -68,7 +68,7 @@ private fun ReleasesUi(
         },
         floatingActionButton = {
             GitHubButton {
-                browser.openUri("https://github.com/Ivy-Apps/ivy-wallet")
+                browser.openUri("https://github.com/arclud/my-wallet")
             }
         }
     ) { innerPadding ->
