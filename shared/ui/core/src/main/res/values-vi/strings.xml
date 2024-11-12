@@ -96,7 +96,7 @@
     <string name="hi_name">Xin chào %1$s</string>
     <string name="cashflow">Dòng tiền: %1$s%2$s %3$s</string>
     <string name="search_transactions">Tìm giao dịch</string>
-    <string name="ivy_wallet_open_source">Ivy Wallet là mã nguồn mở</string>
+    <string name="ivy_wallet_open_source">My Wallet là mã nguồn mở</string>
     <string name="savings_goal">Mục tiêu tiết kiệm</string>
     <string name="quick_access">Truy cập nhanh</string>
     <string name="settings">Cài đặt</string>
@@ -247,7 +247,7 @@
     <string name="hide_income_description">Nhấn vào khoản thu bị ẩn để hiển thị trong 5 giây</string>
     <string name="other">Khác</string>
     <string name="rate_us_on_google_play">Đánh giá Iyv trên Google Play</string>
-    <string name="share_ivy_wallet">Chia sẻ Ivy Wallet</string>
+    <string name="share_ivy_wallet">Chia sẻ My Wallet</string>
     <string name="product">Dịch vụ</string>
     <string name="danger_zone">Nguy hiểm</string>
     <string name="delete_all_user_data">Xóa tất cả các dữ liệu người dùng</string>

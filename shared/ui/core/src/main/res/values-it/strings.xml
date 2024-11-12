@@ -96,7 +96,7 @@
     <string name="hi_name">Ciao %1$s</string>
     <string name="cashflow">Flusso di cassa: %1$s%2$s %3$s</string>
     <string name="search_transactions">Cerca transazioni</string>
-    <string name="ivy_wallet_open_source">Ivy Wallet è open-source</string>
+    <string name="ivy_wallet_open_source">My Wallet è open-source</string>
     <string name="savings_goal">Obiettivo di risparmio </string>
     <string name="quick_access">Accesso rapido</string>
     <string name="settings">Impostazioni</string>
@@ -248,7 +248,7 @@
     <string name="hide_income_description">Fai clic sulle entrate nascoste per visualizzarle per 5s</string>
     <string name="other">Altro</string>
     <string name="rate_us_on_google_play">Valutaci su Google Play</string>
-    <string name="share_ivy_wallet">Condividi Ivy Wallet</string>
+    <string name="share_ivy_wallet">Condividi My Wallet</string>
     <string name="product">Prodotto</string>
     <string name="danger_zone">Zona pericolosa</string>
     <string name="delete_all_user_data">Elimina tutti i dati utente</string>
@@ -381,7 +381,7 @@
     <string name="create_first_planned_payment">Crea il tuo primo pagamento pianificato</string>
     <string name="create_first_planned_payment_description">Automatizza il monitoraggio delle transazioni ricorrenti come i tuoi abbonamenti, l\'affitto, lo stipendio, ecc. Stai al passo con le tue finanze sapendo già quanto devi pagare/ricevere in anticipo.</string>
     <string name="did_you_know">Lo sapevi?</string>
-    <string name="widget_description">Ivy Wallet ha un fantastico widget che consente di aggiungere ENTRATE/USCITE/TRASFERIMENTI con un clic dalla tua home\n\nNota: se il pulsante \"Aggiungi widget\" non funziona, aggiungilo manualmente dal menu dei widget del tuo launcher.</string>
+    <string name="widget_description">My Wallet ha un fantastico widget che consente di aggiungere ENTRATE/USCITE/TRASFERIMENTI con un clic dalla tua home\n\nNota: se il pulsante \"Aggiungi widget\" non funziona, aggiungilo manualmente dal menu dei widget del tuo launcher.</string>
     <string name="add_widget">Aggiungi widget</string>
     <string name="set_a_budget">Imposta un budget</string>
     <string name="set_a_budget_description">Ivy Wallet non solo ti aiuta a monitorare passivamente le tue spese, ma crea anche pro-attivamente il tuo futuro finanziario impostando budget e seguendoli.</string>

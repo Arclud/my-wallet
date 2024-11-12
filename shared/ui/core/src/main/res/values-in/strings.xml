@@ -96,7 +96,7 @@
     <string name="hi_name">Hai %1$s</string>
     <string name="cashflow">Cashflow: %1$s%2$s %3$s</string>
     <string name="search_transactions">Cari transaksi</string>
-    <string name="ivy_wallet_open_source">Ivy Wallet adalah sumber terbuka</string>
+    <string name="ivy_wallet_open_source">My Wallet adalah sumber terbuka</string>
     <string name="savings_goal">Tujuan tabungan</string>
     <string name="quick_access">Akses cepat</string>
     <string name="settings">Pengaturan</string>
@@ -248,7 +248,7 @@
     <string name="hide_income_description">Klik pada pendapatan yang tersembunyi untuk menampilkan saldo selama 5 detik</string>
     <string name="other">Lainnya</string>
     <string name="rate_us_on_google_play">Beri peringkat kepada kami di Google Play</string>
-    <string name="share_ivy_wallet">Bagikan Ivy Wallet</string>
+    <string name="share_ivy_wallet">Bagikan My Wallet</string>
     <string name="product">Produk</string>
     <string name="danger_zone">Zona Bahaya</string>
     <string name="delete_all_user_data">Hapus semua data pengguna</string>
@@ -381,7 +381,7 @@
     <string name="create_first_planned_payment">Buat pembayaran terencana pertama Anda</string>
     <string name="create_first_planned_payment_description">Automatisasi pelacakan transaksi berulang seperti langganan, sewa, gaji, dll. Tetap unggul dalam keuangan dengan mengetahui berapa banyak yang harus Anda bayar/dapatkan di muka.</string>
     <string name="did_you_know">Tahukah Anda?</string>
-    <string name="widget_description">Ivy Wallet memiliki widget keren yang memungkinkan Anda menambahkan transaksi PENDAPATAN/PENGELUARAN/PENYALURAN dengan 1 klik dari beranda Anda\n\nCatatan: Jika tombol "Tambah widget" tidak berfungsi, tambahkan secara manual dari menu widget peluncur Anda.</string>
+    <string name="widget_description">My Wallet memiliki widget keren yang memungkinkan Anda menambahkan transaksi PENDAPATAN/PENGELUARAN/PENYALURAN dengan 1 klik dari beranda Anda\n\nCatatan: Jika tombol "Tambah widget" tidak berfungsi, tambahkan secara manual dari menu widget peluncur Anda.</string>
     <string name="add_widget">Tambahkan widget</string>
     <string name="set_a_budget">Tetapkan anggaran</string>
     <string name="set_a_budget_description">Ivy Wallet tidak hanya membantu Anda melacak pengeluaran secara pasif tetapi juga proaktif membuat masa depan keuangan Anda dengan menetapkan anggaran dan mematuhinya.</string>

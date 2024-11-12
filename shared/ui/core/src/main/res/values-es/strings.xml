@@ -96,7 +96,7 @@
     <string name="hi_name">Hola %1$s</string>
     <string name="cashflow">Flujo de fondos: %1$s%2$s %3$s</string>
     <string name="search_transactions">Buscar transacciones</string>
-    <string name="ivy_wallet_open_source">Ivy Wallet es de código abierto</string>
+    <string name="ivy_wallet_open_source">My Wallet es de código abierto</string>
     <string name="savings_goal">meta de ahorro</string>
     <string name="quick_access">Acceso rápido</string>
     <string name="settings">Ajustes</string>
@@ -253,7 +253,7 @@
     <string name="report_bug">Informar de un error</string>
     <string name="other">Otro</string>
     <string name="rate_us_on_google_play">Califícanos en Google Play</string>
-    <string name="share_ivy_wallet">Compartir Ivy Wallet</string>
+    <string name="share_ivy_wallet">Compartir My Wallet</string>
     <string name="product">Producto</string>
     <string name="danger_zone">Zona peligrosa</string>
     <string name="delete_all_user_data">Eliminar todos los datos del usuario</string>
@@ -386,7 +386,7 @@
     <string name="create_first_planned_payment">Crea tu primer pago planificado</string>
     <string name="create_first_planned_payment_description">Automatice el seguimiento de transacciones recurrentes como sus suscripciones, alquiler, salario, etc. Manténgase al tanto de sus finanzas al saber cuánto tiene que pagar/obtener por adelantado.</string>
     <string name="did_you_know">¿Sabías?</string>
-    <string name="widget_description">Ivy Wallet tiene un widget genial que le permite agregar transacciones de INGRESOS/GASTOS/TRANSFERENCIAS con 1 clic desde su hogar\n\nNota: si el botón "Agregar widget" no funciona, agréguelo manualmente desde su lanzador\' menú de widgets.</string>
+    <string name="widget_description">My Wallet tiene un widget genial que le permite agregar transacciones de INGRESOS/GASTOS/TRANSFERENCIAS con 1 clic desde su hogar\n\nNota: si el botón "Agregar widget" no funciona, agréguelo manualmente desde su lanzador\' menú de widgets.</string>
     <string name="add_widget">Añadir widget</string>
     <string name="set_a_budget">Establecer un presupuesto</string>
     <string name="set_a_budget_description">Ivy Wallet no solo lo ayuda a realizar un seguimiento pasivo de sus gastos, sino que también crea proactivamente su futuro financiero estableciendo presupuestos y ajustándose a ellos.</string>

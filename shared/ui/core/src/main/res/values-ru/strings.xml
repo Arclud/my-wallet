@@ -96,7 +96,7 @@
     <string name="hi_name">Привет, %1$s</string>
     <string name="cashflow">Денежный поток: %1$s%2$s %3$s</string>
     <string name="search_transactions">Поиск транзакций</string>
-    <string name="ivy_wallet_open_source">Ivy Wallet — open-source проект</string>
+    <string name="ivy_wallet_open_source">My Wallet — open-source проект</string>
     <string name="savings_goal">Цель накоплений</string>
     <string name="quick_access">Быстрый доступ</string>
     <string name="settings">Настройки</string>
@@ -245,7 +245,7 @@
     <string name="hide_balance_description">Нажмите на скрытый баланс, чтобы показать его на 5 секунд</string>
     <string name="other">Другое</string>
     <string name="rate_us_on_google_play">Оцените нас в Google Play</string>
-    <string name="share_ivy_wallet">Поделитесь Ivy Wallet</string>
+    <string name="share_ivy_wallet">Поделитесь My Wallet</string>
     <string name="product">Продукт</string>
     <string name="danger_zone">Опасная зона</string>
     <string name="delete_all_user_data">Удалить все данные пользователя</string>
@@ -378,14 +378,14 @@
     <string name="create_first_planned_payment">Создайте свой первый запланированный платёж</string>
     <string name="create_first_planned_payment_description">Автоматизируйте отслеживание повторяющихся транзакций, таких как: подписки, арендная плата, заработная плата и т.д. Опережайте свои финансы, зная заранее, сколько вы должны заплатить/получить.</string>
     <string name="did_you_know">А вы знали?</string>
-    <string name="widget_description">У Ivy Wallet есть крутые виджеты, с помощью которых можно добавить транзакции ДОХОДЫ/РАСХОДЫ/ПЕРЕВОД за один клик со стартового экрана вашего смартфона.\n\nПримечание: Примечание: Если кнопка \"Добавить виджет\" не работает, пожалуйста, добавьте его вручную из меню виджетов.</string>
+    <string name="widget_description">У My Wallet есть крутые виджеты, с помощью которых можно добавить транзакции ДОХОДЫ/РАСХОДЫ/ПЕРЕВОД за один клик со стартового экрана вашего смартфона.\n\nПримечание: Примечание: Если кнопка \"Добавить виджет\" не работает, пожалуйста, добавьте его вручную из меню виджетов.</string>
     <string name="add_widget">Добавить виджет</string>
     <string name="set_a_budget">Установить бюджет</string>
-    <string name="set_a_budget_description">Ivy Wallet помогает не только пассивно отслеживать ваш бюджет, но и проактивно создавать ваше финансовое будущее, задавая бюджеты и придерживаясь его.</string>
+    <string name="set_a_budget_description">My Wallet помогает не только пассивно отслеживать ваш бюджет, но и проактивно создавать ваше финансовое будущее, задавая бюджеты и придерживаясь его.</string>
     <string name="expenses_piechart_description">Вы можете видеть структуру ваших расходов по категориям! Попробуйте, нажмите на серую/чёрную кнопку \"Расходы\" прямо под вашим балансом.</string>
     <string name="expenses_piechart">Круговая диаграмма Расходов</string>
-    <string name="review_ivy_wallet">Оцените Ivy Wallet</string>
-    <string name="review_ivy_wallet_description">Поделитесь обратной связью! Помогите Ivy Wallet стать лучше и вырасти, оставив нам отзыв. Комплименты, идеи и критика приветствуются! Мы очень стараемся.\n\С наилучшими пожеланиями,\nКоманда Ivy.</string>
+    <string name="review_ivy_wallet">Оцените My Wallet</string>
+    <string name="review_ivy_wallet_description">Поделитесь обратной связью! Помогите My Wallet стать лучше и вырасти, оставив нам отзыв. Комплименты, идеи и критика приветствуются! Мы очень стараемся.\n\С наилучшими пожеланиями,\nКоманда Ivy.</string>
     <string name="help_us_grow">Помогите нам расти, чтобы мы могли больше вкладываться в разработку и делать приложение лучше для вас. Если вы поделитесь Ivy Wallet, вы обрадуете двух разработчиков и поможете друзьям взять под контроль их финансы.</string>
     <string name="share_with_friends">Поделитесь с друзьями</string>
     <string name="make_a_report_description">Вы можете генерировать отчёты, чтобы получить глубокое понимание ваших доходов и трат. Фильтруйте ваши транзакции по типу, периоду времени, категории, учётным записям, количеству, ключевым словам и многому другому, чтобы получить более репрезентативную картину ваших финансов.</string>

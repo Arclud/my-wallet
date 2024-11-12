@@ -96,7 +96,7 @@
     <string name="hi_name">Olá %1$s</string>
     <string name="cashflow">Fluxo de caixa: %1$s%2$s %3$s</string>
     <string name="search_transactions">Pesquisar transações</string>
-    <string name="ivy_wallet_open_source">Ivy Wallet é de código aberto</string>
+    <string name="ivy_wallet_open_source">My Wallet é de código aberto</string>
     <string name="savings_goal">Meta de economia</string>
     <string name="quick_access">Acesso rápido</string>
     <string name="settings">Configurações</string>
