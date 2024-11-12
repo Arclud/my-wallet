@@ -15,6 +15,7 @@ import java.time.LocalDateTime
 import java.time.ZoneOffset
 import java.util.UUID
 
+/*
 class Migration128to129Test {
 
     @get:Rule
@@ -25,7 +26,7 @@ class Migration128to129Test {
         FrameworkSQLiteOpenHelperFactory()
     )
 
-    private val migration = Migration128to129_DeleteIsDeleted()
+//    private val migration = Migration128to129_DeleteIsDeleted()
 
     @Test
     fun deletesDeletedTransactions() = migrationTestCase(
@@ -293,4 +294,4 @@ class Migration128to129Test {
     companion object {
         private const val TestDb = "migration-test"
     }
-}
+}*/

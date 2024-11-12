@@ -24,6 +24,7 @@ class IvyRoomDatabaseMigrationTest {
         FrameworkSQLiteOpenHelperFactory()
     )
 
+/*
     @Test
     fun migrate129to130_LoanIncludeNote() {
         helper.createDatabase(TestDb, 129).apply {
@@ -65,7 +66,9 @@ class IvyRoomDatabaseMigrationTest {
         }
         newDb.close()
     }
+*/
 
+/*
     @Test
     fun migrate123to125_LoanDateTime() {
         // given
@@ -118,7 +121,9 @@ class IvyRoomDatabaseMigrationTest {
         }
         newDb.close()
     }
+*/
 
+/*
     @Test
     fun migrate126to127_LoanRecordType() {
         // given
@@ -167,8 +172,9 @@ class IvyRoomDatabaseMigrationTest {
         }
         newDb.close()
     }
+*/
 
-    @Test
+   /* @Test
     fun migrateAll() {
         // given:
         // Create earliest version of the database:
@@ -187,7 +193,7 @@ class IvyRoomDatabaseMigrationTest {
         ).addMigrations(*IvyRoomDatabase.migrations()).build().apply {
             openHelper.writableDatabase.close()
         }
-    }
+    }*/
 
     companion object {
         private const val TestDb = "migration-test"

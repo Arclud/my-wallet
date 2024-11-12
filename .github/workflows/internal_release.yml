@@ -137,7 +137,7 @@
 #      - name: Upload APK to Github Actions
 #        uses: actions/upload-artifact@v4
 #        with:
-#          name: Ivy-Wallet-Demo.apk
+#          name: My-Wallet-Demo.apk
 #          path: app/build/outputs/apk/demo/app-demo.apk
 #
 #      - name: Prepare changelog for GitHub Release
@@ -167,14 +167,14 @@
 #        with:
 #          upload_url: ${{ steps.create_github_release.outputs.upload_url }}
 #          asset_path: app/build/outputs/apk/demo/app-demo.apk
-#          asset_name: Ivy-Wallet-${{ env.TAG_NAME }}.apk
+#          asset_name: My-Wallet-${{ env.TAG_NAME }}.apk
 #          asset_content_type: application/vnd.android.package-archive
 #
 #      - name: Announce in Telegram group
 #        run: |
 #          RELEASE_TAG=${{ env.TAG_NAME }}
 #          RELEASE_URL="https://github.com/${GITHUB_REPOSITORY}/releases/tag/${RELEASE_TAG}"
-#          CAPTION=$'🚀 Ivy Wallet '"$RELEASE_TAG"$' release\n\nCheck it out here: '"$RELEASE_URL"'    🚢 Please, test the release candidate before we ship it.'
+#          CAPTION=$'🚀 My Wallet '"$RELEASE_TAG"$' release\n\nCheck it out here: '"$RELEASE_URL"'    🚢 Please, test the release candidate before we ship it.'
 #
 #          curl -F "chat_id=-1001647280565" \
 #               -F "document=@app/build/outputs/apk/demo/app-demo.apk" \
