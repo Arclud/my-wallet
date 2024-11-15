@@ -19,6 +19,6 @@ class IvyRoomDatabaseMigrationTest {
     )
 
     companion object {
-        private const val TestDb = "migration-test"
+//        private const val TestDb = "migration-test"
     }
 }
