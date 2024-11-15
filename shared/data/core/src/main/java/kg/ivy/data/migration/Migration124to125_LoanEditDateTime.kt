@@ -1,4 +1,3 @@
-/*
 package kg.ivy.data.migration
 
 import androidx.room.migration.Migration
@@ -19,4 +18,4 @@ class Migration124to125_LoanEditDateTime : Migration(124, 125) {
         db.execSQL("DROP TABLE `$LOANS_TABLE`")
         db.execSQL("ALTER TABLE `$LOANS_TEMP_TABLE` RENAME TO `$LOANS_TABLE`")
     }
-}*/
+}

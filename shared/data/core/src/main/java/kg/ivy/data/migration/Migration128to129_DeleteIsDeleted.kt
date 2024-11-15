@@ -1,4 +1,3 @@
-/*
 package kg.ivy.data.migration
 
 import androidx.room.migration.Migration
@@ -24,4 +23,4 @@ class Migration128to129_DeleteIsDeleted : Migration(128, 129) {
     private fun SupportSQLiteDatabase.deleteDeletedFrom(tableName: String) {
         execSQL("DELETE FROM $tableName WHERE isDeleted = 1")
     }
-}*/
+}

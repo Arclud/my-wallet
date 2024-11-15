@@ -1,4 +1,3 @@
-/*
 package kg.ivy.data.migration
 
 import androidx.room.migration.Migration
@@ -9,4 +8,4 @@ class Migration126to127_LoanRecordType : Migration(126, 127) {
     override fun migrate(db: SupportSQLiteDatabase) {
         db.execSQL("ALTER TABLE loan_records ADD COLUMN loanRecordType TEXT NOT NULL DEFAULT 'DECREASE'")
     }
-}*/
+}
