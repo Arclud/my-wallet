@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.legacy"
+    namespace = "kg.ivy.legacy"
 }
 
 dependencies {

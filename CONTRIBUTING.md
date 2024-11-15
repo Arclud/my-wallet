@@ -1,4 +1,4 @@
-# Contributing to Ivy Wallet
+# Contributing to My Wallet
 
 >[!IMPORTANT]
 >**🚨 Notice: Project No Longer Maintained 🚨**
@@ -18,16 +18,16 @@
 
 
 ## 1. Fork the repo
-Fork of the official Ivy Wallet repo by clicking on the badge: [![Fork Ivy Wallet](https://img.shields.io/github/forks/Ivy-Apps/ivy-wallet?logo=github&style=social)](https://github.com/Ivy-Apps/ivy-wallet/fork).
+Fork of the official My Wallet repo by clicking on the badge: [![Fork My Wallet](https://img.shields.io/github/forks/arclud/my-wallet?logo=github&style=social)](https://github.com/arclud/my-wallet/fork).
 
 **[Forking - GitHub tutorial](https://docs.github.com/en/get-started/quickstart/fork-a-repo)**
 
 
 ## 2. Pick an issue
 ### Workflow:
-1. Browse **[Ivy Wallet Issues](https://github.com/Ivy-Apps/ivy-wallet/issues)**.
+1. Browse **[My Wallet Issues](https://github.com/Arclud/my-wallet/issues)**.
 2. Choose an issue that you understand and like.
-> Didn't find anything fitting? Try **[creating a new issue](https://github.com/Ivy-Apps/ivy-wallet/issues/new/choose)**.
+> Didn't find anything fitting? Try **[creating a new issue](https://github.com/Arclud/my-wallet/issues/new/choose)**.
 3. ⚠️ Comment **exactly** **`I'm on it`** on that issue for GitHub Actions to automatically assign it to you.
 > Note: Automated assigning can take up to 5 minutes to take place.
 
@@ -38,7 +38,7 @@ Fork of the official Ivy Wallet repo by clicking on the badge: [![Fork Ivy Walle
 
 
 ## 3. Create a feature branch in your fork
-Open your forked `ivy-wallet` folder in the terminal and create your issue's branch:
+Open your forked `My-Wallet` folder in the terminal and create your issue's branch:
 ```
 git checkout -b fix-issue-{YOUR_ISSUE_NUMBER}
 ```
@@ -68,15 +68,15 @@ git checkout -b fix-issue-{YOUR_ISSUE_NUMBER}
 ## 5. Submit a pull request to `main` branch
 So far, you should have pushed your work to your feature branch and have tested
 that it works on a real Android device.
-The final step is to [open a pull request](https://github.com/Ivy-Apps/ivy-wallet/pulls) to the `main` branch of the
-official Ivy Wallet repo.
+The final step is to [open a pull request](https://github.com/Arclud/my-wallet/pulls) to the `main` branch of the
+official My Wallet repo.
 
 **[Submitting a PR - GitHub tutorial](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)**
 
 ### IMPORTANT:
-- Make sure the base repository is set to `Ivy-Apps/ivy-wallet` and its base is set to `main`.
+- Make sure the base repository is set to `Arclud/my-wallet` and its base is set to `main`.
 - Pull requests to other branches will be rejected.
-- Ivy Wallet doesn't have QA, so **you are the QA!** Please test your implementation carefully.
+- My Wallet doesn't have QA, so **you are the QA!** Please test your implementation carefully.
 
 ### Questions?
 Ask them in [our private Telegram community](https://t.me/+ETavgioAvWg4NThk).

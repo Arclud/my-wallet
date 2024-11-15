@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.exchangerates"
+    namespace = "kg.ivy.exchangerates"
 }
 
 dependencies {

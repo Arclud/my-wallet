@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ivy.wallet">
+    package="kg.ivy.wallet">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
@@ -58,7 +58,7 @@
             tools:node="remove" />
 
         <receiver
-            android:name="com.ivy.widget.transaction.AddTransactionWidget"
+            android:name="kg.ivy.widget.transaction.AddTransactionWidget"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -69,7 +69,7 @@
         </receiver>
 
         <receiver
-            android:name="com.ivy.widget.transaction.AddTransactionWidgetCompact"
+            android:name="kg.ivy.widget.transaction.AddTransactionWidgetCompact"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -80,7 +80,7 @@
         </receiver>
 
         <receiver
-            android:name="com.ivy.widget.balance.WalletBalanceWidgetReceiver"
+            android:name="kg.ivy.widget.balance.WalletBalanceWidgetReceiver"
             android:enabled="@bool/glance_appwidget_available"
             android:exported="true"
             android:label="@string/wallet_balance"

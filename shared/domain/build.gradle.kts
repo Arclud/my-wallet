@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.domain"
+    namespace = "kg.ivy.domain"
 }
 
 dependencies {

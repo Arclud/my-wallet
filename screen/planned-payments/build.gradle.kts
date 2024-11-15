@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.planned"
+    namespace = "kg.ivy.planned"
 }
 
 dependencies {

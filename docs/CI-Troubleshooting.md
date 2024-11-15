@@ -1,6 +1,6 @@
 # Troubleshooting CI failures
 
-If you see any of the PR checks failing (❌) go to [Actions](https://github.com/Ivy-Apps/ivy-wallet/actions) and find it there. Or simply click "Details" next to the failed check and explore the logs to see why it has failed.
+If you see any of the PR checks failing (❌) go to [Actions](https://github.com/arclud/my-wallet/actions) and find it there. Or simply click "Details" next to the failed check and explore the logs to see why it has failed.
 
 ## PR description check
 

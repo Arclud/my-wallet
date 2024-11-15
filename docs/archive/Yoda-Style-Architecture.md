@@ -1,8 +1,8 @@
 # Ivy's Ways, These Are
 
-[![PRs welcome!](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Ivy-Apps/ivy-wallet/blob/main/CONTRIBUTING.md)
-[![GitHub Repo stars](https://img.shields.io/github/stars/Ivy-Apps/ivy-wallet?style=social)](https://github.com/Ivy-Apps/ivy-wallet/stargazers)
-[![Fork Ivy Wallet](https://img.shields.io/github/forks/Ivy-Apps/ivy-wallet?logo=github&style=social)](https://github.com/Ivy-Apps/ivy-wallet/fork)
+[![PRs welcome!](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/arclud/my-wallet/blob/main/CONTRIBUTING.md)
+[![GitHub Repo stars](https://img.shields.io/github/stars/arclud/my-wallet?style=social)](https://github.com/arclud/my-wallet/stargazers)
+[![Fork Ivy Wallet](https://img.shields.io/github/forks/arclud/my-wallet?logo=github&style=social)](https://github.com/arclud/my-wallet/fork)
 
 Solutions short and working, must be. Break the app, they must not.
 
@@ -93,7 +93,7 @@ To birth a new module... Invoke this chant in your terminal, you must:
 
 ["The Grug Brained Developer"](https://grugbrain.dev/), seek this scroll, you must. Tales of old engineering and fun, within it rests.
 
-Legacy code, surround us it does. To restore balance to the code force, visit ["devexp" issues](https://github.com/Ivy-Apps/ivy-wallet/labels/devexp) you must.
+Legacy code, surround us it does. To restore balance to the code force, visit ["devexp" issues](https://github.com/arclud/my-wallet/labels/devexp) you must.
 
 ## Uncertain, you are?
 

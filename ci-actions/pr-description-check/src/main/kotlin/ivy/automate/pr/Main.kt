@@ -27,7 +27,7 @@ fun main(args: Array<String>): Unit = runBlocking {
             buildString {
                 append("\nWe found problems in your PR (Pull Request) description. ")
                 append("Please, follow our PR template:\n")
-                append("https://github.com/Ivy-Apps/ivy-wallet/blob/main/.github/PULL_REQUEST_TEMPLATE.md\n")
+                append("https://github.com/Arclud/my-wallet/blob/main/.github/PULL_REQUEST_TEMPLATE.md\n")
                 problems.forEach {
                     append(it)
                     append("\n\n")

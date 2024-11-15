@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.onboarding"
+    namespace = "kg.ivy.onboarding"
 }
 
 dependencies {

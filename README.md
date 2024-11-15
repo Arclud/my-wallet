@@ -1,4 +1,4 @@
-My Wallet is a free and open source **money management android app**.(forked from [ivy-Wallet](https://github.com/Ivy-Apps/ivy-wallet) since it's no longer supported) It's written using **100% Kotlin and Jetpack Compose**. It's designed to help you keep track of your personal finances with ease.
+My Wallet is a free and open source **money management android app**.(forked from [My-Wallet](https://github.com/Arclud/my-wallet) since it's no longer supported) It's written using **100% Kotlin and Jetpack Compose**. It's designed to help you keep track of your personal finances with ease.
 
 Think of My Wallet as a manual expense tracker that tries to replace the good old spreadsheet for managing your finances.
 
@@ -29,7 +29,7 @@ Instructions in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 My Wallet is a great place to code and learn. That's why we also link to great learning materials (books, articles, videos), check them out in **[docs/resources 📚](docs/resources/)**.
 
-Make sure to check out our short **[Developer Guidelines 🏗️](docs/Guidelines.md)** to learn more about the technical side of the Ivy Wallet.
+Make sure to check out our short **[Developer Guidelines 🏗️](docs/Guidelines.md)** to learn more about the technical side of the My Wallet.
 
 ## Tech Stack
 
@@ -61,7 +61,7 @@ Make sure to check out our short **[Developer Guidelines 🏗️](docs/Guideline
 - [Gradle KTS](https://docs.gradle.org/current/userguide/kotlin_dsl.html) (Kotlin DSL)
 - [Gradle convention plugins](https://docs.gradle.org/current/samples/sample_convention_plugins.html) (build logic)
 - [Gradle version catalogs](https://developer.android.com/build/migrate-to-catalogs) (dependencies versions)
-- [GitHub Actions](https://github.com/Ivy-Apps/ivy-wallet/actions) (CI/CD)
+- [GitHub Actions](https://github.com/Arclud/my-wallet/actions) (CI/CD)
 - [Fastlane](https://fastlane.tools/) (uploads the app to the Google Play Store)
 
 ### Other

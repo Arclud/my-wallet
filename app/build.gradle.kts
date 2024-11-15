@@ -12,11 +12,11 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.wallet"
+    namespace = "kg.ivy.wallet"
     compileSdk = libs.versions.compile.sdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.ivy.wallet"
+        applicationId = "kg.ivy.wallet"
         minSdk = libs.versions.min.sdk.get().toInt()
         targetSdk = libs.versions.compile.sdk.get().toInt()
         versionName = libs.versions.version.name.get()
@@ -57,7 +57,7 @@ android {
 
             signingConfig = signingConfigs.getByName("release")
 
-            resValue("string", "app_name", "Ivy Wallet")
+            resValue("string", "app_name", "My Wallet")
         }
 
         debug {
@@ -70,7 +70,7 @@ android {
             signingConfig = signingConfigs.getByName("debug")
 
             applicationIdSuffix = ".debug"
-            resValue("string", "app_name", "Ivy Wallet Debug")
+            resValue("string", "app_name", "My Wallet Debug")
         }
 
         create("demo") {
@@ -89,7 +89,7 @@ android {
             signingConfig = signingConfigs.getByName("debug")
 
             applicationIdSuffix = ".debug"
-            resValue("string", "app_name", "Ivy Wallet")
+            resValue("string", "app_name", "My Wallet")
         }
     }
 

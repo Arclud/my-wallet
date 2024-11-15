@@ -14,7 +14,7 @@ updates:
       - maven-central
     open-pull-requests-limit: 10
     groups:
-      ivy-wallet:
+      My-Wallet:
         patterns:
           - "*"
 

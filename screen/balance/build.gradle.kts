@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.balance"
+    namespace = "kg.ivy.balance"
 }
 
 dependencies {

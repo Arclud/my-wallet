@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.navigation"
+    namespace = "kg.ivy.navigation"
 }
 
 dependencies {

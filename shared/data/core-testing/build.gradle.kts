@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ivy.data.testing"
+    namespace = "kg.ivy.data.testing"
 }
 
 dependencies {
