@@ -71,4 +71,5 @@ Make sure to check out our short **[Developer Guidelines 🏗️](docs/Guideline
 - [Ktlint](https://github.com/pinterest/ktlint) (linter)
 - [Slack's compose-lints](https://slackhq.github.io/compose-lints/) (linter)
 
+https://play.google.com/store/apps/details?id=kg.ivy.wallet
 
